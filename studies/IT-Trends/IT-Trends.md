@@ -24,4 +24,4 @@
 7. [[Verschlüsselung]]
 
 ### Extras
-- [[Prüfungsvorbereitung]]
+- [[studies/IT-Trends/topics/Prüfungsvorbereitung]]

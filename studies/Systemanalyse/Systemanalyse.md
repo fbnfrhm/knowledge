@@ -9,4 +9,4 @@
 - [[Prototyp & Pretotyp]]
 - [[Design-Thinking]]
 - [[STORY-Board]]
-- Prüfungsvorbereitung
+- [[Prüfungsvorbereitung]]
