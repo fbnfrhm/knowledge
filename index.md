@@ -5,3 +5,6 @@ title: Fabian's Notizen 🗒️
 - Studiengang: Praktische Informatik
 - angestrebter Abschluss: Bachelor of Engineering (B. Eng.)
 - Semester: 5 von 6
+
+## Module
+[[IT-Trends]]
