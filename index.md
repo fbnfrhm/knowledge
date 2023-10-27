@@ -9,3 +9,8 @@ title: Fabian's Notizen 🗒️
 ## Module
 [[IT-Trends]]
 [[Systemanalyse]]
+Systementwicklung
+Rechnernetze
+Betriebssysteme
+Embedded Systems
+Cloud Computing
