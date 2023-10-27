@@ -16,3 +16,12 @@
 ## Themen
 1. [[Cloud Computing]]
 2. [[Künstliche Intelligenz]]
+3. [[Agile Entwicklung & DevOps]]
+4. [[Technologien der 3. Plattform der IT]]
+5. IT-Sicherheit
+6. Microservices  + REST
+	1. Docker & Microservices
+7. Verschlüsselung
+
+### Extras
+- Prüfungsvorbereitung
