@@ -9,4 +9,4 @@
 
 ## Extras
 - [[Prototyp & Pretotyp]]
-- Desgin-Thinking
+- [[Design-Thinking]]
