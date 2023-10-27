@@ -8,5 +8,5 @@
 7. [[SCRUMBAN]]
 
 ## Extras
-- Prototyp & Pretotyp
+- [[Prototyp & Pretotyp]]
 - Desgin-Thinking
