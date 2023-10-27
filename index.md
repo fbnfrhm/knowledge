@@ -7,10 +7,10 @@ title: Fabian's Notizen 🗒️
 - Semester: 5 von 6
 
 ## Module
-[[IT-Trends]]
-[[Systemanalyse]]
-Systementwicklung
-Rechnernetze
-Betriebssysteme
-Embedded Systems
-Cloud Computing
+- [[IT-Trends]]
+- [[Systemanalyse]]
+- Systementwicklung
+- Rechnernetze
+- Betriebssysteme
+- Embedded Systems
+- Cloud Computing
