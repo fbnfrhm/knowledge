@@ -8,3 +8,4 @@ title: Fabian's Notizen 🗒️
 
 ## Module
 [[IT-Trends]]
+[[Systemanalyse]]
