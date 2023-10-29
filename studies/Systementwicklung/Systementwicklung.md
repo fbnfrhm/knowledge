@@ -8,7 +8,7 @@
 	6. [[Grundsatzentscheidungen]]
 	7. [[Metriken für SW-Architektur Entwürfe]]
 3. [[Objektorientierte Entwurfsmuster]]
-4. Datenaustauschformate
+4. [[Datenaustauschformate]]
 
 ## Extras
 - Klausurvorbereitung
