@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "studies/Systementwicklung/topics/Entwicklungskonzepte/Metriken für SW-Architektur Entwürfe.md",
+                "file": "studies/Systementwicklung/Systementwicklung.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "studies/Systementwicklung/topics/Entwicklungskonzepte/Metriken für SW-Architektur Entwürfe.md",
+                "file": "studies/Systementwicklung/Systementwicklung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "studies/Systementwicklung/topics/Entwicklungskonzepte/Metriken für SW-Architektur Entwürfe.md",
+                "file": "studies/Systementwicklung/Systementwicklung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "studies/Systementwicklung/topics/Entwicklungskonzepte/Metriken für SW-Architektur Entwürfe.md"
+                "file": "studies/Systementwicklung/Systementwicklung.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "8caf457ca3d59f56",
   "lastOpenFiles": [
+    "studies/Systementwicklung/topics/Objektorientierte Entwurfsmuster.md",
     "studies/Systementwicklung/Systementwicklung.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Metriken für SW-Architektur Entwürfe.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Grundsatzentscheidungen.md",
