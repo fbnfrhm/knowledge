@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "studies/Systementwicklung/topics/Entwicklungskonzepte/Einflussfaktoren.md",
+                "file": "studies/Systementwicklung/Systementwicklung.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "studies/Systementwicklung/topics/Entwicklungskonzepte/Einflussfaktoren.md",
+                "file": "studies/Systementwicklung/Systementwicklung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "studies/Systementwicklung/topics/Entwicklungskonzepte/Einflussfaktoren.md",
+                "file": "studies/Systementwicklung/Systementwicklung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "studies/Systementwicklung/topics/Entwicklungskonzepte/Einflussfaktoren.md"
+                "file": "studies/Systementwicklung/Systementwicklung.md"
               }
             }
           }
@@ -148,14 +148,20 @@
   },
   "active": "8caf457ca3d59f56",
   "lastOpenFiles": [
+    "studies/Systementwicklung/topics/Entwicklungskonzepte/Grundsatzentscheidungen.md",
     "studies/Systementwicklung/Systementwicklung.md",
+    "studies/Systementwicklung/topics/Entwicklungskonzepte.md",
+    "pi/module/Systementwicklung/Themen/Entwicklungskonzepte.md",
+    "pi/module/Systementwicklung/Themen",
+    "pi/module/Systementwicklung",
+    "pi/module",
+    "pi",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Einflussfaktoren.md",
     "studies/Systementwicklung/topics/Einführung.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der logischen Sicht.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der Ablauf-Sicht.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der physikalischen Sicht.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der strukturellen Sicht.md",
-    "studies/Systementwicklung/topics/Entwicklungskonzepte.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte",
     "index.md",
     "studies/Systementwicklung/topics",
