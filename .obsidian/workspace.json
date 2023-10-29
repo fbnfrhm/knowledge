@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "studies/Systementwicklung/Systementwicklung.md",
+                "file": "studies/Systementwicklung/topics/Entwicklungskonzepte/Metriken für SW-Architektur Entwürfe.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "studies/Systementwicklung/Systementwicklung.md",
+                "file": "studies/Systementwicklung/topics/Entwicklungskonzepte/Metriken für SW-Architektur Entwürfe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "studies/Systementwicklung/Systementwicklung.md",
+                "file": "studies/Systementwicklung/topics/Entwicklungskonzepte/Metriken für SW-Architektur Entwürfe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "studies/Systementwicklung/Systementwicklung.md"
+                "file": "studies/Systementwicklung/topics/Entwicklungskonzepte/Metriken für SW-Architektur Entwürfe.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "8caf457ca3d59f56",
   "lastOpenFiles": [
-    "studies/Systementwicklung/topics/Entwicklungskonzepte/Grundsatzentscheidungen.md",
     "studies/Systementwicklung/Systementwicklung.md",
+    "studies/Systementwicklung/topics/Entwicklungskonzepte/Metriken für SW-Architektur Entwürfe.md",
+    "studies/Systementwicklung/topics/Entwicklungskonzepte/Grundsatzentscheidungen.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte.md",
     "pi/module/Systementwicklung/Themen/Entwicklungskonzepte.md",
     "pi/module/Systementwicklung/Themen",
