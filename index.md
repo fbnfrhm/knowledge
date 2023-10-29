@@ -9,7 +9,7 @@ title: Fabian's Notizen 🗒️
 ## Module
 - [[IT-Trends]]
 - [[Systemanalyse]]
-- Systementwicklung
+- [[Systementwicklung]]
 - Rechnernetze
 - Betriebssysteme
 - Embedded Systems
