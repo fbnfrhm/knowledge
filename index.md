@@ -14,3 +14,4 @@ title: Fabian's Notizen 🗒️
 - Betriebssysteme
 - Embedded Systems
 - Cloud Computing
+- [[ABWL]]
