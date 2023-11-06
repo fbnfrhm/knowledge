@@ -1,0 +1,102 @@
+# CAD
+## Teil 1
+- Digitaler Zwilling / Digital Twin
+	- virtuelle Kopie des realen Objekts
+	- Datenaustausch virtuelle Kopie <-> reales Objekt
+	- Datenverarbeitung / Analyse anhand der virtuellen Kopie
+		- Vorhersagen treffen basierend auf den Daten
+- Product Lifecycle Management
+	- ![[Pasted image 20231106143636.png]]
+- virtuelles Produkt (= Pretotyp, Vorgänger des Digitalen Zwillings)
+	- für die Planung, Entwicklung und Konstruktion
+- Metaverse
+	- VR-Universum
+	- Interaktion durch VR & AR
+	- allgegenwärtiges räumliches Internet
+	- personalisierte digitale Erfahrung
+	- Verschmelzen von physischer & virtueller Welt
+- Ablauf Produktentwicklung:
+	- ![[Pasted image 20231106150508.png]]
+	- 3D-Konstruktion:
+		- Entwurf des Produkts in 3D
+		- Nutzung von CAD-Software
+		- Erstellung von dreidimensionalen Modellen
+	- NC-Simulation (Numerical Control Simulation)
+		- Digitale Simulation der Bearbeitungswege
+		- Verwendung in der Vorbereitung für CNC-Maschinen
+		- Erkennung und Korrektur von Fehlern im Vorfeld
+	- FEM-Berechnung
+		- Anwendung der Finite-Elemente-Methode
+		- Analyse der Produktreaktionen auf physikalische Einwirkungen
+		- Identifikation von Schwachstellen im Design
+	- Baugruppengenerierung
+		- Zusammenstellung von Einzelteilen zu Baugruppen
+		- Überprüfung der Passgenauigkeit und Funktionalität
+	- Zyklischer Prozess
+		- Iterative Vorgehensweise
+		- Kontinuierliche Verfeinerung des Produkts
+		- Rückkopplung zwischen den Phasen zur Optimierung
+- NC-Datenaustausch
+	- ![[Pasted image 20231106152153.png]]
+	- Konstruktion:
+		- Erstellen des Modells --> bspw. mit CAD
+		- Ableitung einer technischen Zeichnung
+	- Arbeitsplanung:
+		- Festlegung der Arbeitsschritte (+ Werkzeugauswahl)
+		- Einteilung der Technischen Zeichnung
+	- NC-Programmierung
+		- Umwandlung des Modells in Maschinenbefehle (bspw. für CNC-Maschine)
+- ![[Pasted image 20231106153203.png]]
+
+## Teil 2
+- ![[Pasted image 20231106154018.png]]
+- Aufbau von CAD- und DCC-Software
+	- ![[Pasted image 20231106154145.png]]
+- Grafische Schnittstellen (API)
+	- GKS = Grafisches Kernsystem
+		- Festlegung der Basisfunktionen und Weiterverarbeitung computergenerierter Bilder
+		- Ausgabe 2D Vektor- und Rasterbilder
+		- Bildeingabe & -bearbeitung durch Festlegen von Funktionen für die graphische Eingabe und Bildschirmstrukturierung
+		- einheitliche Schnittstelle zwischen den Anwenderprogrammen und einem Grafiksystem
+		- Alle Funktionen sind anwendungs- und geräteneutral definiert
+		- Behandlung der grafischen Ein- und Ausgabeinheiten als virtuelle grafische Arbeitsplätze
+	- PHIGS / PHIGS+ = Programmer’s Hierarchical Interactive Graphics System
+	- Direct3D/DirectX bzw. DirectX Graphics
+	- OpenGL = Open Graphics Library
+	- Vulkan = (Khronos Group)
+	- Metal (Apple)
+		- Bsp.: Mac Pro Workstation Powered by AMD Radeon™ Graphics (6/2019)
+- Programmierschnittstellen
+	- ![[Pasted image 20231106160057.png]]
+- Geometrische Schnittstellen
+	- ![[Pasted image 20231106160225.png]]
+	- CAD:
+		- STEP = Standard for the Exchange of Product Model Data
+			- keine reine geometrische Schnittstelle
+			- Produkt als Ganzes und sein gesamter Lebenszyklus
+			- Integriertes Produktmodell
+			- Produktmodell besteht aus Partialmodellen
+				- Darstellung sämtlicher Merkmale des Produkts über seinen Lebenszyklus
+			- ![[Pasted image 20231106161222.png]]
+		- JT = Jupiter Tesselation
+			- gut geeignet für die Prozesse nach CAD
+			- CAD-Informationen gehen verloren
+			- enthält alle notwendigen Informationen aus dem CAD
+			- schnelles Laden / sehr performant
+			- optional exakte Geometrie
+			- ![[Pasted image 20231106162236.png]]
+		- IGES -> VDA-IS = Initial Graphics Exchange Specification
+			- Grundelemente
+				- ![[Pasted image 20231106160929.png]]
+		- VDA-FS = Verband der Automobilindustrie-Flächenschnittstelle
+		- STL = Standard Triangle Language / Standard Tessellation Language
+	- DCC (Digital Content Creation):
+		- OBJ = Oben Source : Wavefront Technologies
+		- gITF = Graphics Language Transmission Format
+			- Komprimierung
+			- JSON
+		- USD (OpenUSD) = Universal Scene Description
+- Kernelmodellierer (Solid Modeling Kernel)
+	- grundlegendes Geometriemodell für CAD-Systeme
+	- Parasolid (Dateiendung: `*.x_t`, `*.x_b`)
+	- ACIS (`*.sat`)

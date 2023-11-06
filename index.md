@@ -15,3 +15,4 @@ title: Fabian's Notizen 🗒️
 - Embedded Systems
 - Cloud Computing
 - [[ABWL]]
+- [[Graphische Datenverarbeitung]]
