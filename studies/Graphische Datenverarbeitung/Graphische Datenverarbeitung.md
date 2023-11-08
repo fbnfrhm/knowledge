@@ -100,3 +100,85 @@
 	- grundlegendes Geometriemodell für CAD-Systeme
 	- Parasolid (Dateiendung: `*.x_t`, `*.x_b`)
 	- ACIS (`*.sat`)
+
+## Teil 3
+- Grafische Primitive: 2D-Elemente
+	- Beispiele:
+		- Punkt, Linie, Polygon (Polylinie), Kreis, Rechteck, Text, Spline, Bézier
+- Grafische Primitive: 3D-Elemente
+	- Beispiel:
+		- Quader, Kugel, Zylinder, Kegel, ...
+		- Bézier-Fläche / NURBS (Non-Uniform Rational B-Spline and Surfaces)
+		- Metabälle / Blob-Netz
+		- Subdivision Surfaces Modeling / SubD NURBS
+- Tesselierung:
+> Tesselierung ist der Prozess der Unterteilung einer geometrischen Form in kleinere, oft dreieckige Flächen, um deren Darstellung und Berechnung in der Computergrafik zu vereinfachen.
+- Interpolation:
+> Interpolation ist das Finden von Zwischenwerten zwischen zwei bekannten Werten in einer Datenreihe.
+- Transformationsfunktionen:
+	- Rundung, Fase, Bohrung, Nut, Ringnut
+	- Welle, Rippe, Flansch
+- Volumen --> Flächen --> Kanten --> Punkte
+
+## Teil 4
+- Auge
+	- Nachtsehen: Stäbchen für Helligkeit, nicht farbsehfähig
+	- Tagsehen: Zäpfchen für Farbsehen
+- CIE-Farbwertdiagramm
+	- ![[Pasted image 20231108140330.png]]
+	- Dreieck umfasst alle wahrnehmbaren Farben unter Vernachlässigung der Leuchtdichte
+	- Gamut = Farbumfang der darstellbaren Farben eines Farbraumes (Range of realisable colours)
+		- ![[Pasted image 20231108141731.png]]
+- Wahrnehmungsbegriffe
+	- Leuchtdichte = Helligkeit (Fläche im sichtbaren Bereich, Integral)
+	- Farbton = dominante Wellenlänge
+	- Sättigung = Erregungsreinheit, Sättigung in der Farblehre bezieht sich auf die Intensität oder Reinheit einer Farbe.
+	- $\text{Sättigung} = \frac{\text{reine Farbe}}{\text{reine Farbe} + \text{weiß}}$
+- Farbmodelle, Farbraum
+	- RGB
+		- Red, Green, Blue
+		- ![[Pasted image 20231108143551.png]]
+	- CMY(K)
+		- Cyan, Magenta, Yellow, Key = Schwarz
+	- HSV
+		- Hue, Saturation, Value
+		- ![[Pasted image 20231108143957.png]]
+	- HLS
+		- ![[Pasted image 20231108145312.png]]
+		- Hue, Lightness, Saturation
+		- ![[Pasted image 20231108144100.png]]
+	- CIE
+	- YIQ
+- Gamma, Gammakorrektur
+	- Gamma = Intensität des Lichts am Monitor
+	- Gammakorrektur = Kompensation für die Nichtlinearitäten
+- Umwandlung RGB in Graustufen:
+  $Y=0.299R+0.587G+0.114B$
+  - komplementär Farben berechnen verlustfrei möglich
+- Lichtquellen
+	- ![[Pasted image 20231108151821.png]]
+	- Richtungslicht, Punktlicht, Spotlicht
+		- ![[Pasted image 20231108152116.png]]
+	- Sonnenlicht- und Tageslicht
+		- ![[Pasted image 20231108152716.png]]
+	- Skylight
+		- ![[Pasted image 20231108152850.png]]
+		- Das Licht kommt aus unterschiedlichen Richtungen
+	- Umgebungslicht
+	- Image Based Lighting (IBL) (meist im Zusammenhang mit HDR-Image)
+	- Photometrische Lichtquellen (incl. IES-Profil für die Abstrahlcharakteristik)
+- Reflexion:
+	- ideal spiegelnde Reflexion (z.B. Spiegel)
+	- gerichtet diffuse Reflexion (z.B. poliertes Metall)
+	- ideal diffuse Reflexion (z.B. raues Metall)
+	- Totalreflexion ==> Licht wird 1:1 zurückgeworfen
+- Beleuchtungsmodelle
+	- Phong-Beleuchtungsmodell
+		- (glänzend, matte Oberfläche)
+
+## Teil 5
+- BMP, GIF, JPEG, TIFF, PNG, OpenEXR, DDS, HEIF, WebP, HDRI, RAW
+- ![[Pasted image 20231108160539.png]]
+- Bildkomprimierung
+	- ![[Pasted image 20231108161520.png]]
+		- DCT = Discrete Cosine Transform = diskrete Kosinustransformation

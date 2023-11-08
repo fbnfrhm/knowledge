@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8caf457ca3d59f56",
+            "id": "0164d914617dda06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md"
               }
             }
           }
@@ -146,8 +146,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8caf457ca3d59f56",
+  "active": "0164d914617dda06",
   "lastOpenFiles": [
+    "Pasted image 20231108161520.png",
+    "media/pi/modules/GDV/pasted/Pasted image 20231108160707.png",
+    "media/pi/modules/GDV/pasted/Pasted image 20231106160057.png",
+    "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md",
+    "media/pi/modules/GDV/pasted",
+    "media/pi/modules/GDV/pasted/Pasted image 20231108160539.png",
+    "media/pi/modules/GDV/pasted/Pasted image 20231108152850.png",
+    "media/pi/modules/GDV/pasted/Pasted image 20231108152716.png",
+    "media/pi/modules/GDV/pasted/Pasted image 20231108152116.png",
+    "media/pi/modules/GDV/pasted/Pasted image 20231108151821.png",
+    "media/pi/modules/GDV/pasted/Pasted image 20231108145312.png",
+    "media/pi/modules/GDV/pasted/Pasted image 20231108144100.png",
+    "media/pi/modules/GDV/pasted/Pasted image 20231108143957.png",
+    "index.md",
+    "media/pi/modules/GDV",
+    "studies/Graphische Datenverarbeitung",
+    "Textdokument (neu).txt",
+    "studies/ABWL/ABWL.md",
+    "studies/ABWL/topics/Klausurvorbereitung.md",
+    "media/pi/modules/ABWL",
+    "media/pi/Untitled",
+    "studies/IT-Trends/topics/Prüfungsvorbereitung.md",
+    "studies/ABWL/topics",
+    "studies/ABWL/ABWL",
+    "studies/ABWL",
     "studies/Systementwicklung/Systementwicklung.md",
     "studies/Systementwicklung/topics/Klausurvorbereitung.md",
     "studies/Systementwicklung/topics/Datenaustauschformate.md",
@@ -157,19 +182,12 @@
     "studies/Systementwicklung/topics/Entwicklungskonzepte.md",
     "pi/module/Systementwicklung/Themen/Entwicklungskonzepte.md",
     "pi/module/Systementwicklung/Themen",
-    "pi/module/Systementwicklung",
-    "pi/module",
-    "pi",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Einflussfaktoren.md",
     "studies/Systementwicklung/topics/Einführung.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der logischen Sicht.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der Ablauf-Sicht.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der physikalischen Sicht.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der strukturellen Sicht.md",
-    "studies/Systementwicklung/topics/Entwicklungskonzepte",
-    "index.md",
-    "studies/Systementwicklung/topics",
-    "studies/Systementwicklung/Untitled.md",
-    "studies/Systementwicklung"
+    "studies/Systementwicklung/Untitled.md"
   ]
 }
