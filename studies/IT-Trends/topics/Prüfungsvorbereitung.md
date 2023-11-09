@@ -45,7 +45,7 @@
 - [ ] Ich kann eine Micro-Service-Architektur von einer Service-Orientierten-Architekturen unterscheiden:  
 	- Service orientiert:  ![[SOA.drawio.svg.svg]]
 		- bei Service-orientierter Architektur: ein geteiltes Interface
-	- Micro-Service:   ![[media/pi/modules/IT-Trends/docker/MS_Beispiel_Architektur.drawio.svg]]
+	- Micro-Service:   ![[MS_Beispiel_Architektur.drawio.svg]]
 		- bei Micro-Service-Architektur: jeder Service kann eigenes Interface haben
 - [ ] Ich kann ein Beispiel für eine Anwendung darstellen, die mittels einer Micro-Service-Architektur aufgebaut ist und mindestens eine REST-Schnittstelle dazu verbal beschreiben.
 	- siehe COLIBRI-Architektur:
@@ -66,8 +66,8 @@
 > Cloud Computing ist ein **Modell** das es erlaubt bei **Bedarf**, **jederzeit** und **überall** über ein Netz auf einen geteilten Pool von konfigurierbaren Rechnerressourcen zuzugreifen, die **schnell** und mit **minimalem Management-Aufwand** (inkl. ISP) zur Verfügung gestellt werden können.  
 > — NIST, ENISA
 
-![[media/pi/modules/IT-Trends/cloud_comp/Cloud_Eigenschaften.drawio.png]]  
-![[media/pi/modules/IT-Trends/cloud_comp/Cloud_Eigenschaften_Comp.drawio.png]]
+![[Cloud_Eigenschaften.drawio.png]]  
+![[Cloud_Eigenschaften_Comp.drawio.png]]
 
 - [ ] Ich kann Gründe angeben, warum Cloud-Computing Vorteile hat und ebenso Nachteile darstellen:  
 
@@ -82,8 +82,8 @@
 | Verfügbarkeit | |
 
 - [ ] Ich kann Service-Modelle benennen und erläutern sowie SW-Stacks diesen zuordnen.  
-![[media/pi/modules/IT-Trends/cloud_comp/Cloud_Services.png]]
-![[media/pi/modules/IT-Trends/cloud_comp/Cloud_Services_Schichten.drawio.svg]]
+![[Cloud_Services.png]]
+![[Cloud_Services_Schichten.drawio.svg]]
 
 - [ ] Ich kann die Begriffe Public-Cloud, Private-Cloud und Hybrid-Cloud einem virtuellen Kunden Vor- und Nachteilen darstellen:  
 	- Public Cloud
@@ -136,17 +136,17 @@
 
 - [ ] Ich kann den prinzipiellen Ablauf einer Machine Learning Anwendungserstellung darstellen und dabei auf Anlernphase und Anwendung des ML-Algorithmus eingehen.
 	- **Anwendungserstellung**:  
-![[media/pi/modules/IT-Trends/ai/ML_math_1.drawio.svg]]  
+![[ML_math_1.drawio.svg]]  
 Menge von Funktionen (parametrisiert)  $F=\{f_p: f_p: \Omega \rightarrow \Psi\}$
 		- Es gibt eine Güte-Funktion  (Fehler, Verlust, Risiko, ...)
 			- $L(y,f_p(x))$  
 		- Vorstellung von dieser Güte-Funktion:  
-		![[media/pi/modules/IT-Trends/ai/ML_math_2.drawio.svg]]
+		![[ML_math_2.drawio.svg]]
 		- $f_p(x)=\tilde y$, eigentlich will ich bei $y$ landen ==> Güte-Funktion gibt an, wie weit $\tilde y$ von $y$ weg ist.
 		- Ziel: Suche die beste Funktion $f_*$, die den kleinsten Fehler macht
 			- $f_* =\underset{f_p \in F}{\text{argmin}} \int_{\Omega} \int_{\Psi}L(y,f_p(x))\space p(x,y) \,dy\,dx$
 			- Beispiel: Menge aller `.jpg`-Bilder
-		![[media/pi/modules/IT-Trends/ai/ML_math_3.drawio.svg]]
+		![[ML_math_3.drawio.svg]]
 			- Wir haben ein Cluster für $\underset{y_1}{\text{Frauen}}/\underset{y_2}{\text{Männer}}$
 			- <span style="color: red">Suchen über gesamten</span> $\Psi$ <span style="color: red">und über gesamten</span> $\Omega$ <span style="color: red">die Funktionen mit dem kleinsten Fehler</span>
 	- **Anlernphase**: 
@@ -184,7 +184,7 @@ Menge von Funktionen (parametrisiert)  $F=\{f_p: f_p: \Omega \rightarrow \Psi\}$
 
 ## Lernzielkontrolle 05: Docker
 - [ ] Ich kann ein Ablauf-Bild beschreiben, wie ich vorgehen kann, um einen Docker-Container nutzbar zu machen. 
-![[media/pi/modules/IT-Trends/docker/Erstellung_Docker.drawio.svg]]
+![[Erstellung_Docker.drawio.svg]]
 1. Clonen 
 ```bash
 docker pull
@@ -243,7 +243,7 @@ docker commit ubuntu Kasche:202211
 		- zentrale Stelle, wo Images gespeichert werden
 
 - [ ] Ich kann den Unterschied zwischen einer Verwendung einer virtuellen Maschine und einem Docker‐Ansatz benennen  
-![[media/pi/modules/IT-Trends/docker/Docker.drawio.svg]] ![[media/pi/modules/IT-Trends/docker/VM.drawio.png]]  
+![[Docker.drawio.svg]] ![[VM.drawio.png]]  
 	- Docker:
 		- fein granularer
 		- spezifischer
@@ -315,7 +315,7 @@ docker commit ubuntu Kasche:202211
 	- **Ziel**: abgegrenzte Aufgabe soll übernommen werden
 	- **IST-Stand**: komplexe Beziehungsgeflechte
 	- **Theorie-Lösung**: Domänen-Analyse (Zuständigkeitsbereiche suchen)
-![[media/pi/modules/IT-Trends/docker/MS_Entwurf_1.drawio.svg]]
+![[MS_Entwurf_1.drawio.svg]]
 	- erster Schritt:
 		- Gliederung der Funktionalitäten in Fachbereiche
 	- zweiter Schritt
@@ -387,13 +387,13 @@ docker commit ubuntu Kasche:202211
 - [ ] Ich kann erklären, warum es zwei prinzipiell unterschiedliche  
 Verschlüsselungsverfahren gibt.
 	-  symmetrische Verschlüsselung  
-![[media/pi/modules/IT-Trends/encrypt/Symmetrische_Verschluesselung.drawio.png]]
+![[Symmetrische_Verschluesselung.drawio.png]]
 		- Algorithmus:
 			- schnell
 			- durch Hardware beschleunigbar
 
 -  asymmetrische Verschlüsselung  
-![[media/pi/modules/IT-Trends/encrypt/asymmetrische_Verschluesselung.png]]
+![[asymmetrische_Verschluesselung.png]]
 		- Algorithmus
 			- langsamer
 			- schlecht durch Hardware zu beschleunigen
@@ -404,10 +404,10 @@ Verschlüsselungsverfahren gibt.
 			- "Dateien", die mit dem öffentlichen Schlüssel verschlüsselt werden, können nur noch mit dem privaten Schlüssel entschlüsselt werden
 
 - [ ] Ich kann ein Bild erstellen, mit dessen Hilfe die symmetrische Verschlüsselung erklärt werden kann und es erklären.  
-![[media/pi/modules/IT-Trends/encrypt/Symmetrische_Verschluesselung.drawio.png]]
+![[Symmetrische_Verschluesselung.drawio.png]]
 
 - [ ] Ich kann ein Bild erstellen, mit dessen Hilfe die asymmetrische Verschlüsselung erklärt werden kann und es erklären.  
-![[media/pi/modules/IT-Trends/encrypt/asymmetrische_Verschluesselung.png]]
+![[asymmetrische_Verschluesselung.png]]
 
 - [ ] Ich kann begründen, warum es sinnvoll ist, Digitale Zertifikate zu verwenden.
 	- wird benötigt, um zu bestätigen, dass der öffentliche Schlüssel von mir ist.
@@ -422,7 +422,7 @@ Verschlüsselungsverfahren gibt.
 - [ ] Ich kann erklären, was eine Blockchain ist und wie es prinzipiell technisch funktioniert.
 	- digitales Protokoll für Transfer + Aufbewahrung von digitalen Informationen
 	- dezentrale Datenbank, die ganz oft dupliziert wurde  
-![[media/pi/modules/IT-Trends/encrypt/Blockchain.drawio.png]]
+![[Blockchain.drawio.png]]
 
 - [ ] Ich kann Vor‐ und Nachteile der Blockchain‐Technologie darstellen.
 
