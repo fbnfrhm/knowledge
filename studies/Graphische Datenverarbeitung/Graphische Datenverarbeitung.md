@@ -182,3 +182,100 @@
 - Bildkomprimierung
 	- ![[Pasted image 20231108161520.png]]
 		- DCT = Discrete Cosine Transform = diskrete Kosinustransformation
+
+## Teil 6
+### Drucktechnik
+- Probleme und Lösungsansätze
+	- Farbquantisierung (-> Farbtiefe)
+		- Anzahl der Farben je Kanal in Bit
+	- Rasterkonversion
+		- ![[Pasted image 20231111141002.png]]
+	- Halbtöne (Größe), Dithering (Anzahl), Fehlerdiffusion
+		- ![[Pasted image 20231111141059.png]]
+		- Dithering
+			- ![[Pasted image 20231111141159.png]]
+			- ![[Pasted image 20231111141315.png]]
+- Tintenstrahldrucker:
+	- Drucken von unterschiedlichen Punktgrößen
+	- mehrschichtiges Drucken zum Erzeugen unterschiedlicher Farben
+	- Mehrpunkt-Druck zum Erzeugen unterschiedlicher Farben
+- Clipping:
+	- Nicht-Sichtbares wird nicht berechnet
+	- Reflexionen dürfen nicht Clipping
+- Aliasing / Anti-Aliasing 
+	- ![[Pasted image 20231111142350.png]]
+	- Anti-Aliasing:
+		- Glätten der Treppenstufen (siehe links) durch Farbübergänge
+			- Folge: Unschärfe
+- Grafikpipeline
+	- 2D-Grafikpipeline
+		- ![[Pasted image 20231111142621.png]]
+		1. **Objektdefinition**: Ursprung der Grafikelemente; Definition von Formen und Linien als mathematische Gleichungen oder Datenstrukturen.
+		2. **Modellierungstransformationen**: Platzieren und Skalieren der Objekte im Raum; Anwendung von Transformationen wie Rotation, Skalierung und Translation.
+		3. **Ansichtstransformationen**: Anpassung der Szene an eine spezifische Ansicht oder Perspektive; Einstellung von Kamera-Position und Blickwinkel.
+			1. **Fenster- und Viewport-Einstellungen**: Bestimmung des sichtbaren Ausschnitts der Szene (Fenster) und dessen Abbildung auf den Ausgabebereich (Viewport).
+		4. **Schriftgröße und Farbattribute**: Definition von Texteigenschaften und Farbinformationen für die Objekte.
+		5. **Scan-Conversion (Rasterkonversion)**: Umwandlung der Vektorobjekte in Pixel auf dem Rasterdisplay; endgültige Darstellung der Grafikelemente auf dem Bildschirm.
+	- 3D-Grafikpipeline
+		- ![[Pasted image 20231111142658.png]]
+		Die Einzelschritte der 3D-Grafikpipeline in Ihrer Grafik können wie folgt zusammengefasst werden:
+		1. **Objektdefinition**:
+		   - Festlegung von Objekten in der Szene mittels Koordinaten und Primitiven (z.B. Punkte, Linien, Polygone).
+		2. **Modellierungstransformationen**:
+		   - Anwendung von Transformationen (Rotation, Skalierung, Translation) auf Objekte, um ihre Position, Größe und Orientierung im 3D-Raum zu ändern.
+		3. **Ansichtstransformationen**:
+		   - Einstellung der Kamera-Perspektive; Umwandlung der Szene aus der Modellansicht in die Kameraansicht.
+		4. **Projektion**:
+		   - Umrechnung der 3D-Szene in eine 2D-Projektion (perspektivisch oder orthographisch), basierend auf den Ansichtsparametern.
+		5. **2D-Ansichtstransformation**:
+		   - Anpassung der projizierten 2D-Szene an die spezifischen Koordinaten des Ausgabegeräts (z.B. Bildschirm).
+		6. **Scan-Conversion**:
+		   - Umsetzung der 2D-Vektorgrafik in eine Rastergrafik, wobei jeder Vektor in eine Menge von Pixeln umgewandelt wird.
+		7. **Anzeige (Bildspeicher)**:
+		   - Übertragung der pixelbasierten Grafikdaten in den Bildspeicher, von wo aus sie auf dem Ausgabegerät dargestellt werden.
+- Illuminationsverfahren:
+	- lokale Illumination: Nur von der Lichtquelle ausgehend, ohne Spiegelung, Erstellen der Schatten und Helligkeitspunkte
+		- **Flat Shading (Flat)**
+			- Einheitliche Farbe pro Polygon.
+			- Berechnet Beleuchtung für einen repräsentativen Punkt (oft der Schwerpunkt) eines Polygons.
+			- Harte Kanten zwischen Polygonen, keine Farbübergänge.
+		- **Gouraud Shading (Gouraud)**
+			- Beleuchtung an den Vertices (Ecken) der Polygone berechnet.
+			- Farbübergänge zwischen Vertices durch Interpolation entlang der Kanten und über die Fläche des Polygons.
+			- Weichere Übergänge als bei Flat Shading, aber kann Mach-Bänder-Effekte erzeugen.
+		- **Phong Shading (Phong)**
+			- Interpolation der Normalenvektoren über die Fläche des Polygons.
+			- Beleuchtung wird an jedem Pixel berechnet, was zu einer sehr glatten und realistischen Darstellung von Highlights führt.
+			- Rechenintensiver als Flat oder Gouraud, aber liefert die besten Ergebnisse für glänzende Oberflächen.
+	- globale Illumination: Objekte können Licht reflektieren und selber als Lichtquelle fungieren (durch reflektiertes oder ausgestrahltes Licht)
+		- Raytracing
+			- Nachverfolgung der Wege von Lichtstrahlen
+			- Berechnung rechen- und damit zeitaufwändig
+			- ![[Pasted image 20231111153159.png]]
+		- Radiosity
+			-  Radiosity ist ein Verfahren, das berechnet, wie Licht in einem Raum verteilt wird, wobei es besonders gut diffuse Reflexionen zwischen Flächen simuliert
+			- Berechnung der Lichtenergie (in Form von Aufnahme & Aufgabe) einer Fläche
+			- ![[Pasted image 20231111153209.png]]
+		- Kombination aus verschiedenen Verfahren
+- Renderer
+	- Scanline
+	- Arnold (Autodesk)
+	- Octane Render
+	- Radeon ProRender
+	- Workbench-Engine
+	- Cycles
+	- Eevee
+	- RenderMan Studio
+- Textur-Mapping
+	- ![[Texture_mapping_demonstration_animation.gif]]
+	- siehe Minecraft-Skin
+- Animation
+	- **Kinematische Ketten**: Sequenz von verbundenen Gliedern (wie Knochen in einem Skelett), deren Bewegungen relativ zueinander stehen.
+	- **Direkte Kinematik**: Berechnet die Positionen der Glieder einer kinematischen Kette ausgehend von der Wurzel bis zu den Endeffektoren, basierend auf gegebenen Gelenkwinkeln.
+	- **Inverse Kinematik (IK)**: Ermittelt die notwendigen Gelenkwinkel einer kinematischen Kette, um einen Endeffektor (z.B. eine Hand oder einen Fuß) an eine vorgegebene Position zu bringen.
+	- **Stop-Motion**: Animationsform, bei der reale Objekte physisch bewegt und bildweise fotografiert werden, um Bewegung zu simulieren.
+	- **Keyframe**: Einzelbild in einer Animation, das einen wichtigen Punkt oder eine signifikante Position eines animierten Objekts markiert.
+	- **Bewegungspfade**: Vorgegebene Wege im Raum, entlang derer sich animierte Objekte oder Kameraeinstellungen bewegen.
+	- **Motion Tracking**: Technik, um die Bewegung realer Objekte zu erfassen und diese Informationen in eine Animation zu integrieren.
+	- **Motion Capture**: Erfassung von menschlichen Bewegungen durch Sensoren, um sie auf digitale Charaktere zu übertragen.
+	- **Bones**: Strukturen in einem 3D-Animationsmodell, die den Gliedern in einem Skelett entsprechen und zur Definition von Bewegungen und Transformationen innerhalb des Modells verwendet werden.
