@@ -724,3 +724,109 @@
 - aktuellen Stand erfassen
 - Wissensmanagement
 - Abrechnung
+
+# ABWL
+## Zusammenfassung 1
+### Sie können die Qualitätspolitik in die Unternehmenspolitik einordnen! 
+![[Pasted image 20231111103342.png]]
+- Vision (als Basis) -> Politik -> Leitbild -> Kultur
+- Leitbild damit nach innen und außen
+### Sie beherrschen den Unterschied zwischen Qualität und Qualitätsmanagement! 
+- Qualität
+	- Grad, wie sehr ein Objekt bestimmte Eigenschaften / Beschaffenheit erfüllt
+	- Güte der Sachen, Dienstleistungen und Prozesse
+- Qualitätsmanagement
+	- Alle Tätigkeiten zur Planung der Güte von allen Objekten
+	- Umsetzung, Sicherung und Überprüfung der Güte von Objekten
+### Sie kennen min. 5 Instrumentarien zur Qualitätsbestimmung!
+1. Leitbild = Unternehmensleitbild zur Realisierung von Qualität
+2. Struktur = Unternehmensstruktur (Aufbauorganisation)
+3. Prozesse = Prozessabläufe im Unternehmen (Bsp.: innerbetriebliche Logistik)
+4. Stellenbeschreibung für alle Mitarbeiter
+5. Beurteilung von Leistung und Verhalten der Mitarbeiter
+6. Realisierung der Vorgaben (Unternehmenskultur)
+
+### Extras
+> Es gibt rechtliche Grundlagen und Forderungen die für die Erfüllung der Qualität nach wirtschaftlichen Gesichtspunkten notwendig sind.
+
+- Grundlage zum Erreichen der Qualität:
+	- Managementqualität
+	- Produkt-/Dienstleistungsqualität
+	- Qualitätsbedingungen
+
+## Zusammenfassung 2
+### Sie kennen die Bedeutung von TQM! 
+- TQM = Total Quality Management
+	- Qualität in allen Bereichen des Unternehmens
+	- Organisierende Tätigkeit + Controlling + Verbesserung
+	- aufzeichnende, sichtende, organisierende, kontrollierende, korrigierende Tätigkeit
+### Sie kennen aus dem Qualitätssystem KAIZEN mind. folgende Techniken: PDCA, ISHIKAWA, 5/7 W-Regel der Aufgabenstellung 
+- Verbesserung zum Besseren:
+	- **Seiri (整理):** Sortiere aus. Alles, was nicht benötigt wird aussortieren
+	- **Seiton (整頓):** Stelle ordentlich hin. Was gebraucht wird, bekommt einen unter ergonomischen Gesichtspunkten, definierten und gekennzeichneten festen Platz
+	- **Seiso (清楚):** Säubere. Der Arbeitsplatz wird von Grund auf gereinigt.
+	- **Seiketsu (清潔):** Sauberkeit bewahren - stetiges Aufräumen
+	- **Shitsuke (躾):** Selbstdisziplin üben - Ordnung und Sauberkeit aufrechterhalten
+	- **Shuukan (習慣):** Bei nachhaltiger Disziplin gehen Ordnung und Sauberkeit in Fleisch und Blut über → Gewohnheit
+- Plan, Do, Check, Act
+- ISHIKAWA -> Ursache-Wirkungsdiagramm --> Fischgrete
+	- Mensch, Maschine, Milieu, Material, Methode, Messung, Management
+- 5/7 W-Regeln (davon abgeleitet 5W für Aufgabenstellung)
+	- Was ist zu tun?
+	- Wer macht es?
+	- Warum macht er es?
+	- Wie wird es gemacht?
+	- Wann wird es gemacht?
+	- Wo soll es getan werden?
+	- Wieso wird es nicht anders gemacht?
+### Sie beherrschen den Managementkreislauf in seiner Anwendung!
+![[Pasted image 20231111113116.png]]
+- heutzutage eher PDCA in Anwendung
+
+## Zusammenfassung 3
+### Sie kennen mind. 3 Möglichkeiten der Darstellung von Prozessen und können den Vorgangsknotennetzplan anwenden!
+- Knotennetzplan
+- Flussdiagramm
+- Pfeilnetzplan
+- Gantt-Diagramm
+### Sie kennen die grundlegenden Möglichkeiten einer Aufbauorganisation! 
+![[Pasted image 20231111113759.png]]
+### Sie können den Inhalt und Funktion einer Aufbauorganisation beschreiben! 
+![[Pasted image 20231111113821.png]]
+- zu Kommunikation: Gegenstrom-Methode
+### Für den KVP können sie den Managementkreislauf anwenden!
+![[Screen_KVP_Management.png]]
+
+## Zusammenfassung 4
+### Sie sind in der Lage anhand einer Ausgangssituation eine SWOT-Analyse durchzuführen! 
+![[Pasted image 20231111115244.png]]  
+![[Pasted image 20231111115440.png]]  
+### Sie können ISHIKAWA (Ursache-Wirkungsdiagramm) anhand einer Fehlersituation anwenden! 
+![[Pasted image 20231111120348.png]]
+### Sie können das Risiko-Management anhand des Ampelsystems erklären.
+![[Pasted image 20231111120429.png]]
+## Zusammenfassung 5
+### Sie kennen mindestens 3 Methoden des Zeit- und Selbstmanagement! 
+- Pareto (80/20)
+	- ![[Pasted image 20231111122158.png]]
+	- A-Aufgaben
+		- bis 15% Zeitaufwand
+		- bis 65% Wert der Tätigkeit
+	- B-Aufgaben
+		- bis 20% Zeitaufwand
+		- bis 20% Wert der Tätigkeit
+	- C-Aufgaben
+		- bis 65% Zeitaufwand
+		- bis 15% Wert der Tätigkeit
+- Alpen-Methode
+	- ![[Pasted image 20231111122027.png]]
+- Eisenhower / ABC-Analyse
+### Sie beherrschen die Methode nach Eisenhower und können diese erklären und anwenden! 
+- Eisenhower 
+	- ![[Pasted image 20231111121619.png]]
+	- A = selber machen
+	- B = selber machen nach Termin oder an Teammitglied delegieren, der es kann (Qualifikation besitzt)
+	- C = an Mitarbeiter delegieren
+	- D = Ignorieren
+### Sie können eine Aufgabenstellung in ihrem Ablauf mittels Managementkreislauf darstellen!
+![[Pasted image 20231111122312.png]]

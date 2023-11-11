@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md",
+                "file": "studies/ABWL/topics/Klausurvorbereitung.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md",
+                "file": "studies/ABWL/topics/Klausurvorbereitung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md",
+                "file": "studies/ABWL/topics/Klausurvorbereitung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md"
+                "file": "studies/ABWL/topics/Klausurvorbereitung.md"
               }
             }
           }
@@ -148,19 +148,20 @@
   },
   "active": "0164d914617dda06",
   "lastOpenFiles": [
+    "media/pi/modules/ABWL/Pasted image 20231111122312.png",
+    "media/pi/modules/ABWL/Pasted image 20231111122158.png",
+    "media/pi/modules/ABWL/Pasted image 20231111122027.png",
+    "media/pi/modules/ABWL/Pasted image 20231111121619.png",
+    "media/pi/modules/ABWL/Pasted image 20231111120429.png",
+    "media/pi/modules/ABWL/Pasted image 20231111120348.png",
+    "media/pi/modules/ABWL/Pasted image 20231111115440.png",
+    "media/pi/modules/ABWL/Pasted image 20231111115244.png",
+    "media/pi/modules/ABWL/Screen_KVP_Management.png",
+    "media/pi/modules/ABWL/Pasted image 20231111114314.png",
+    "media/pi/modules/ABWL/Pasted image 20231111113821.png",
     "studies/ABWL/topics/Klausurvorbereitung.md",
     "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md",
     "studies/ABWL/ABWL.md",
-    "Pasted image 20231110163544.png",
-    "Pasted image 20231110162806.png",
-    "Pasted image 20231110162724.png",
-    "Pasted image 20231110155843.png",
-    "media/pi/modules/ABWL/Pasted image 20231110155058.png",
-    "media/pi/modules/ABWL/Pasted image 20231110152450.png",
-    "media/pi/modules/ABWL/Pasted image 20231110150649.png",
-    "media/pi/modules/ABWL/Pasted image 20231110150252.png",
-    "media/pi/modules/ABWL/Pasted image 20231110144553.png",
-    "media/pi/modules/ABWL/Pasted image 20231110125930.png",
     "media/pi/modules/GDV/pasted",
     "index.md",
     "media/pi/modules/GDV",
