@@ -386,3 +386,5 @@
 - Preiselastizität $e_N=\frac{\frac{\Delta x_N}{x_N}}{\frac{\Delta P}{P}}$ 
 ### Sie kennen die Instrumente des Marketing und deren Inhalt!
 ![[Pasted image 20231109163554.png]]
+
+# Projektmanagement
