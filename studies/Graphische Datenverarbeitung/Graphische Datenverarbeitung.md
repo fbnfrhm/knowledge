@@ -90,8 +90,8 @@
 				- ![[Pasted image 20231106160929.png]]
 		- VDA-FS = Verband der Automobilindustrie-Flächenschnittstelle
 		- STL = Standard Triangle Language / Standard Tessellation Language
-	- DCC (Digital Content Creation):
-		- OBJ = Oben Source : Wavefront Technologies
+	- DCC (Digital Content Creation) = siehe 3Ds Max:
+		- OBJ = Open Source : Wavefront Technologies
 		- gITF = Graphics Language Transmission Format
 			- Komprimierung
 			- JSON
@@ -166,6 +166,7 @@
 		- Das Licht kommt aus unterschiedlichen Richtungen
 	- Umgebungslicht
 	- Image Based Lighting (IBL) (meist im Zusammenhang mit HDR-Image)
+		- Berechnung der Lichtverhältnisse aus einem Bild
 	- Photometrische Lichtquellen (incl. IES-Profil für die Abstrahlcharakteristik)
 - Reflexion:
 	- ideal spiegelnde Reflexion (z.B. Spiegel)
@@ -279,3 +280,48 @@
 	- **Motion Tracking**: Technik, um die Bewegung realer Objekte zu erfassen und diese Informationen in eine Animation zu integrieren.
 	- **Motion Capture**: Erfassung von menschlichen Bewegungen durch Sensoren, um sie auf digitale Charaktere zu übertragen.
 	- **Bones**: Strukturen in einem 3D-Animationsmodell, die den Gliedern in einem Skelett entsprechen und zur Definition von Bewegungen und Transformationen innerhalb des Modells verwendet werden.
+
+## Ergänzungen aus der Themenübersicht
+- **Objektraum**:
+	- Bezieht sich auf die Koordinaten und Geometrie eines Objekts, wie sie unabhängig vom Betrachter definiert sind.
+	- Die Modellierung und Transformationen der Objekte finden hier statt, bevor sie auf die Ansicht projiziert werden.
+	- Arbeitet mit 3D-Koordinaten, die das Objekt in seiner natürlichen Größe und Form beschreiben.
+- **Bildraum**:
+	- Umfasst die projizierten Koordinaten eines Objekts auf die 2D-Bildebene, wie sie von einem Betrachter gesehen werden.
+	- Hier finden Rendering-Verfahren statt, einschließlich Scan-Konversion und Rasterung von Bildern.
+	- Arbeitet mit 2D-Koordinaten, die bestimmen, wo und wie ein Objekt auf dem Bildschirm oder anderen Medien angezeigt wird.
+- Wellenlängen
+	- ![[Pasted image 20231112112701.png]]
+	- ![[Pasted image 20231112112724.png]]
+- **Z-Abstand**: Messung der Entfernung eines Objektpunktes von der Kamera entlang der Z-Achse in einem 3D-Raum.
+- **Tiefeninformation**: Wichtig für die korrekte Darstellung der räumlichen Anordnung und der Überlappung von Objekten in einer 3D-Szene.
+- **Z-Puffering**: Technik, bei der für jedes Pixel der Z-Abstand gespeichert wird, um zu bestimmen, welches Objekt im Vordergrund angezeigt wird.
+
+- Polygonzug
+	- ![[Pasted image 20231112114239.png]]
+
+- Mach-Band-Effekt
+	- ![[taeuschung1.jpg]]
+	- ![[Pasted image 20231112115134.png]]
+	- 
+### Umwandlung CMY -> CMYK
+- gewählten Key (K) von dem Farbwerten (CMY) abziehen
+
+### Umwandlung RGB -> CMYK
+The R,G,B values are divided by 255 to change the range from 0..255 to 0..1:
+_R_' = _R_/255
+_G_' = _G_/255
+_B_' = B/255
+
+The black key (K) color is calculated from the red (R'), green (G') and blue (B') colors:
+_K_ = 1-max(_R_', _G_', _B_')
+
+The cyan color (C) is calculated from the red (R') and black (K) colors:
+_C_ = (1-_R_'-_K_) / (1-_K_)
+
+The magenta color (M) is calculated from the green (G') and black (K) colors:
+_M_ = (1-_G_'-_K_) / (1-_K_)
+
+The yellow color (Y) is calculated from the blue (B') and black (K) colors:
+_Y_ = (1-_B_'-_K_) / (1-_K_)
+
