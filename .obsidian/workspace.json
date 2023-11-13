@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md",
+                "file": "studies/Netzwerkadministration/Netzwerkadministration.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md",
+                "file": "studies/Netzwerkadministration/Netzwerkadministration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md",
+                "file": "studies/Netzwerkadministration/Netzwerkadministration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md"
+                "file": "studies/Netzwerkadministration/Netzwerkadministration.md"
               }
             }
+          },
+          {
+            "id": "0d7e31e1636cb428",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,21 +154,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "03958143907c9f06",
+  "active": "0164d914617dda06",
   "lastOpenFiles": [
+    "media/pi/modules/Netzwerkadministration/Pasted image 20231113175617.png",
+    "media/pi/modules/Netzwerkadministration/Pasted image 20231113173636.png",
+    "media/pi/modules/Netzwerkadministration/Pasted image 20231113172822.png",
+    "media/pi/modules/Netzwerkadministration/Pasted image 20231113172740.png",
+    "media/pi/modules/Netzwerkadministration/Pasted image 20231113172511.png",
+    "media/pi/modules/Netzwerkadministration/Pasted image 20231113170650.png",
+    "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md",
+    "studies/Netzwerkadministration/Netzwerkadministration.md",
+    "studies/Netzwerkadministration",
+    "studies/Untitled.md",
+    "media/pi/modules/Netzwerkadministration",
     "media/pi/modules/GDV/Pasted image 20231112115134.png",
     "media/pi/modules/GDV/taeuschung1.jpg",
     "media/pi/modules/GDV/Pasted image 20231112114239.png",
     "media/pi/modules/GDV/Pasted image 20231112112724.png",
     "media/pi/modules/GDV/Pasted image 20231112112701.png",
-    "media/pi/modules/GDV/Pasted image 20231112112616.png",
-    "media/pi/modules/GDV/Texture_mapping_demonstration_animation.gif",
-    "media/pi/modules/GDV/Pasted image 20231111155717.png",
-    "media/pi/modules/GDV/Pasted image 20231111153209.png",
-    "media/pi/modules/GDV/Pasted image 20231111153159.png",
-    "media/pi/modules/GDV/Pasted image 20231111142658.png",
     "studies/ABWL/topics/Klausurvorbereitung.md",
-    "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md",
     "studies/ABWL/ABWL.md",
     "media/pi/modules/GDV/pasted",
     "index.md",
@@ -172,7 +184,6 @@
     "studies/IT-Trends/topics/Prüfungsvorbereitung.md",
     "studies/ABWL/topics",
     "studies/ABWL/ABWL",
-    "studies/ABWL",
     "studies/Systementwicklung/Systementwicklung.md",
     "studies/Systementwicklung/topics/Klausurvorbereitung.md",
     "studies/Systementwicklung/topics/Datenaustauschformate.md",
@@ -181,7 +192,6 @@
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Grundsatzentscheidungen.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte.md",
     "pi/module/Systementwicklung/Themen/Entwicklungskonzepte.md",
-    "pi/module/Systementwicklung/Themen",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Einflussfaktoren.md",
     "studies/Systementwicklung/topics/Einführung.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der logischen Sicht.md",
