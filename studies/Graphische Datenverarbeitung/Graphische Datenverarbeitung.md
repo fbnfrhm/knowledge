@@ -325,3 +325,174 @@ _M_ = (1-_G_'-_K_) / (1-_K_)
 The yellow color (Y) is calculated from the blue (B') and black (K) colors:
 _Y_ = (1-_B_'-_K_) / (1-_K_)
 
+# Vorbereitungsfragen
+
+- Wofür steht CAD und wofür CAE?
+	- CAD = Computer-Aided Design
+	- CAE = Computer-Aided Engineering
+- Auf welche Prozesse des Produktlebenszyklusses konzentrieren wir uns im Kurs?
+	- Produktentstehung, Entwicklung, 
+- Was versteht man unter „Mechatronik"?
+	- Mechanik + Elektronik + Software bzw. Informatik
+- Was ist das Ziel eines PDM- bzw. PLM-Systems?
+	- PDM = Produktdatenmanagement
+		- Sammeln / Speichern der Daten eines Produktes
+		- aus dem gesamten Leben des Produktes
+	- PLM = Product-Lifecycle-Management
+		- Anwendung der Daten aus dem PDM
+		- Übersicht über die Daten behalten
+		- Optimierung des Prozesses / Produktes
+- Was ist ein „Virtuelles Produkt"?
+	- Idee des fertigen Prozesses
+	- statische Daten eines Produkts:
+		- Parameter, 3D-Modell
+- Erklären Sie den sogenannten „Digitalen Zwilling"!
+	- digitale Repräsentanz eines physischen Produktes
+	- Abbildung des aktuellen Entwicklungsstandes
+	- Datenaustausch zwischen Zwilling <-> Produkt
+- Wie unterscheiden Sie Objektraum und Bildraum?
+	- Objektraum = 3D-Raum der verarbeitet wird
+	- Bildraum = Sicht der Kamera (tatsächlich dargestelltes Bild)
+- Was verstehen Sie unter „Computervision"?
+	- Objektraum = Umwandlung Bildraum in Objektraum
+- Was stellen Sie sich unter dem Objektraum vor?
+	- 3D-Raum mit geometrischen Elementen
+- Wofür stehen PPS und PDM?
+	- PPS = Product Planning System
+		- Fokus: Planung, Steuerung und Überwachung der Produktionsabläufe
+		- Ziel: Optimierung von Produktionsprozessen, Ressourceneinsatz, Lagerhaltung
+	- PDM = Produktdatenmanagement
+- Was kennzeichnet ein integriertes Produktdatenmodell?
+	- Abbildung aller produktdefinierenden Informationen, die im Produktentwicklungsprozess entstehen
+	- Konkrete Darstellung der Struktur und Attribute von Produktinformationen.
+	- Beschreibt, wie Daten im Kontext des Produkts organisiert und repräsentiert werden.
+- Erklären Sie die Unterscheidung in Produktdaten und Metadaten im Zusammenhang mit PDM-/PLM-Systemen.
+	- Produktdaten = Informationen, die sich direkt auf das Produkt beziehen
+		- Konstruktionszeichnungen, 3D-Modelle, Materialspezifikationen, Fertigungspläne
+		- Beschreiben die physikalischen und funktionalen Eigenschaften des Produkts
+	- Metadaten = Daten, die Informationen über die Produktdaten liefern
+		- Erstellungsdatum einer Zeichnung, Autor, Versionsnummer, Verwendungshistorie
+		- Ermöglichen das Management, die Organisation und das Auffinden der Produktdaten im System
+- Wofür steht die Anforderung der Rückverfolgbarkeit bei PDM-Systemen?
+	- Dokumentation der Historie
+	- Nachvollziehbarkeit
+	- Verantwortlichkeit
+	- Qualitätssicherung
+	- Regelkonformität
+- Nennen Sie Beispiele für Applikationen im Zusammenhang mit CAE/CAD.
+	- Rohrleitungsbau, Kraftsimulation, Gebäudeplanung
+	- Autodesk Inventor, Autodesk Fusion360, Siemens NX, CATIA
+- Welche Betriebssysteme stehen für CAD-Systeme bevorzugt zur Verfügung?
+	- Windows, macOS, Linux
+- Nennen Sie bekannte bzw. großer Hersteller für CAD-Systeme.
+	- Siemens, Autodesk, DASSAULT
+- Durch welche Aktivitäten ist der Markt der Softwareanbieter für die digitale Produktentwicklung gekennzeichnet?
+	- wenige Hersteller die das gesamte PLM-Softwarespektrum abdecken
+- Beschreiben Sie die Herangehensweise für die Geometriebeschreibung mittels CSG.
+	- CSG = Constructive Solid Geometry
+	- Erstellen von komplexen Modellen mit Hilfe von booleschen Operatoren
+- Was sind Feature im Zusammenhang mit CAD-Modellen?
+	- spezifische Merkmale oder Elemente eines Designs
+		- Definition der Form, Größe
+		- Funktion der Modelle
+- Welche Booleschen Operatoren kennen Sie im Zusammenhang mit CSG?
+	- Vereinigung, Schnitt, Differenz
+- Beschreiben Sie die geometrische Nutzung boolescher Operatoren in CAD und CG.
+	- Erstellen von komplexer Modelle aus einfachen geometrischen Formen
+- Aus welchen geometrischen Elementen ist eine komplexe Geometrie aufgebaut?
+	- simple Grundformen (Kreis, Quader, Würfel, Rechteck, Linien, ...)
+- Woran erkennt man schnell die Komplexität der Darstellung einer Geometrie?
+	- Anzahl der geometrischen Elemente (Polygone, Faces, Edges, Vertices)
+- Worum handelt es sich bei geometrischen Randbedingungen?
+	- Constraints:
+		- Baugruppen-Randbedingungen 
+			- Fluchtend, Passend
+			- Passend, Winkel, Tangential, Symmetrie, Einfügen
+		- Skizzen-Randbedingungen
+			- parallel, senkrecht, Lot, Parameter...
+- Wie werden Parameter im Inventor verwendet?
+	- z.B. bei den Skizzen:
+		- Seite B ist x-mal so lang wie Seite A
+- Was repräsentiert der Modellbaum (Historiengraph) im Inventor?
+	- strukturierte & chronologische Darstellung aller Schritte und Elemente
+- Parametric Design
+	- Designansatz, bei dem die Ausmaße und Eigenschaften eines Objekts durch Parameter definiert werden
+- Was ist das Ziel geometrischer Grundelemente im 2D- und 3D-Bereich?
+	- Erstellung komplexer Geometrie mit einfacher Geometrie
+- Was ist eine Bézierkurve?
+	- Kurve durch Start- und Endpunkte, beeinflusst durch Kontrollpunkte
+	- Polynome n-ten Grades
+- Was sind NURBS?
+	- NURBS = Non-Uniform Rational B-Splines
+	- Splines übertragen auf Volumenmodelle
+	- exakte Beschreibung von Flächen
+- Wie wird Truetype-Font geometrisch beschrieben?
+	- anhand von Bézierkurven und Kontrollpunkten
+- Worum handelt es sich bei sog. „Metaballs"?
+	- geometrische Elemente um organische, amorphe Formen zu modellieren
+	- Bälle die bei Berührung verschmelzen
+	- ideal zur Darstellung von Flüssigkeiten
+- Worum handelt es sich bei der Methode des Subdivision Surface Modeling?
+	- Technik in der 3D-Modellierung, bei der glatte und komplexe Oberflächen durch die wiederholte Verfeinerung (Subdivision) eines Polygonnetzes erzeugt werden, um detailliertere und glattere Formen zu erreichen.
+- Worum handelt es sich bei der Tessellation von Modellen in der Computergrafik?
+	- Prozess der Zerlegung eines Modells in kleinere Polygone, oft Dreiecke
+- Welche Zellen im menschlichen Auge sind für die Farbwahrnehmung verantwortlich?
+	- Zapfen = Farbwahrnehmung
+	- Stäbchen = Helligkeit
+- Mit welchen biologischen Argumenten wird die Drei-Farben-Theorie begründet.
+	- 3 Arten von Zäpfchen
+	- Mischung jeder Farben aus RGB möglich
+- Worum handelt es sich im physikalischen Sinne, wenn wir von Licht sprechen?
+	- Form der Energie, Photonen
+	- Wahrnehmung physischer Objekte anhand von Reflexionen
+- Erklären Sie die Begriffe „Farbton" und „Sättigung" genauer.
+	- Farbton = Grundfarbe, Aspekt einer Farbe (R, G, B), dominante Wellenlänge
+	- Sättigung = Grauanteil, Weißanteil, Reinheit der Farbe, Lebhaftigkeit
+- Welche (Farb-)Werte können Sie mit Hilfe des HLS/HSL-Modells verändern/definieren?
+	- H = Farbton, 
+	- L = Helligkeit, 
+	- S = Sättigung
+- Was beschreibt das CIE-Farbwertdiagramm?
+	- Farbwahrnehmungsbereich des menschlichen Auges
+- Woher kommen die Unterschiede im Farbraum z.B. für den Zeitungsdruck und typische Monitore?
+	- additive, subtraktive Farbmischung
+	- licht oder pigment-basiert
+- Erklären Sie additive und subtraktive Farbmischung.
+	- additiv = Start beim Schwarz -> Hinzufügen von Farben -> Weiß
+	- subtraktiv = Start bei Weiß -> Hinzufügen von Farben -> Schwarz
+- Welche Typen von Lichtquellen werden beispielhaft unterschieden? Warum werden unterschiedliche Typen definiert?
+	- Richtungslicht, Punktlicht, Spotlicht
+	- unterschiedliche Beleuchtungsszenarien, Schatten, Schattenwurf
+- Welche Möglichkeiten haben Sie beispielhaft, um eine Szene mittels Licht realistischer zu gestalten?
+	- IBL = Image-Based Lighting
+	- Platzieren, Positionieren von Lichtquellen, Materialien anpassen
+- Wie erfolgt die Umrechnung vom CMY- in das RGB-Farbmodel/?
+	- $R = 1 - C$
+	- $G = 1 - M$
+	- $B = 1 - Y$ 
+	- ggf. $\times$ oder / 255 rechnen
+- Erklären Sie die Unterschiede zwischen Farbmodell, Farbraum und Farbprofil.
+	- Farbmodell
+		- mathematische Darstellung von Farben
+	- Farbraum
+		- Bereich von Farben, die ein Gerät darstellen kann
+	- Frabprofil
+		- Datei mit Informationen über die Farbwidergabe eines Gerätes
+- Aus welchen Reflexionsanteilen setzt sich das Beleuchtungsmodell nach Phong zusammen? Wie werden die Faktoren für reale Materialien ermittelt?
+	- ambient, diffuse, spekulare Reflexion
+- Wie werden die Berechnungsverfahren wie Phong, Metal, Blinn, usw. aus technischer Sicht bezeichnet?
+	- lokale Beleuchtungsverfahren
+- Welche Bedeutung haben die grafischen Schnittstellen OpenGL, DirectX/3D?
+	- Ermöglichen des Zugriffs auf Grafikhardware
+- Welche Bestandteile des JT-Datenformates können Sie benennen?
+	- PMI = Product and Manufacturing Information
+	- Attribute
+	- Precise BREP = Boundary Representation
+	- Lightweight (LoD)
+- Worum handelt es sich bei der Abkürzung „BREP"?
+	- Beschreibung eines Körpers durch die begrenzenden Oberfläche
+- Probleme geometrische Schnittstellen / Direktschnittstellen / Neutralformate
+	- Geometrische Genauigkeit
+	- Verlust von Informationen
+	- Dateigröße
+	- Interoperabilität
