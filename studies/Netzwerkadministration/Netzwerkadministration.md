@@ -298,4 +298,87 @@
 	- Überwachung des Betriebs des Systems
 	-  Eigene Infrastruktur und Software zur Systemverwaltung
 	- ![[Pasted image 20231118143000.png]]
-- 
+	- Verteilung von Aufgaben nach Themengebieten
+		- Server & Applications, Network, Storage
+- Netzwerkmanagement ![[Pasted image 20231118145716.png]]
+	- Managementmöglichkeiten:
+		- SNMP, CORBA, Web-Interface, Command-Line
+- SNMP
+	- unterschiedliche Versionen: v1, v2, v3
+	- UDP-basiert
+		- bessere Wahl bei Überlast
+	- Manager = Network Management Station (NMS)
+		- Sammeln von Informationen von anderen Geräten durch *Polling* und *Traps*
+		- Polling = Abfrage eines anderen Gerätes
+		- Trap = Mitteilung über ein eingetretenes Ereignis durch Agent 
+			- asynchron
+	- Agent = Software die auf dem abgefragten Gerät läuft
+	- ![[Pasted image 20231118151516.png]]
+	- SMI = Structure of Management Information (SMI)
+		- Definition verwalteter Objekte und deren Verhalten
+		- Agent hat eine Aufstellung aller Objekte, die er verfolgt
+		- Beispiel Object: Status der Schnittstelle eines Routers (`up`, `down`, `testing`)
+		- nur  die Art wie definiert wird
+	- MIB = Management Information Base
+		- Datenbank
+		- enthält verwaltete Objekte, der der Agent verfolgt
+		- Definition aller Status / Statistiken, auf die vom NMS zugegriffen werden kann
+		- MIB = Definition der Objekte (SMI Syntax)
+	- Communities
+		- quasi Passwörter anhand derer die Zugriffsrechte erteilt werden
+	- OID = Object Identifier 
+		- definiert ein verwaltetes Objekt eindeutig
+		- OID = numerisch oder menschenlesbar
+		- Datentypen: Abstract Syntax Notation One (ASN.1)
+		- Basic Encoding Rules (BER): Regeln, wie Instanzen von Objekten codiert (Oktette) werden
+		- OID-Baum = Strukturierung von Objekten in einem Baum ![[Pasted image 20231118154559.png]]
+			- 1.3.6.1 = iso.org.dod.internet
+## Aufgaben
+- ARP = Address Resolution Protocol
+	- Verbindungsstelle zwischen L2 und L3
+	- Ermitteln der MAC-Adresse zur IP-Adresse
+	- Gratuitous ARP
+		- Informiert das Netzwerk über IP-Adressänderungen oder überprüft IP-Adresskonflikte.
+- VLAN = Virtual Local Area Network
+	- Möglichkeit zur Aufteilung von physischen Netzen in mehrere logische Netze
+	- kein Datenaustausch zwischen den logischen Netzen möglich auf L2
+	- zwischen VLANs muss geroutet werden
+	- tag-basiertes, port-basiertes VLAN
+- DNS = Domain Name System
+	- Implementierungen:
+		- Dnsmasp, Unbound, BIND, Microsoft DNS
+	- Port 53
+	- Anwendung von UDP und TCP
+	- DNS-Anfrage max. 512 Bytes (für UDP)
+		- bei Überschreitung der Größe --> TCP
+		- Authentizitätsprüfung über DNSSEC
+	- DoT (DNS over TLS), DoH (DNS over HTTPS)
+		- für Verschlüsselung
+	- Befehle für DNS-Abfrage:
+		- `nslookup`
+		- `dig`
+	- Unterschied zwischen Zone und Domain:
+	- **Domain**:
+		- **Definition**: Sammlung von Netzwerkressourcen unter einer gemeinsamen Namensstruktur.
+		- **Beispiel**: `example.com`.
+		- **Einsatz**: Organisation und Identifikation im Internet.
+	- **Zone**:
+		- **Definition**: Administrativer Teil einer Domain in DNS.
+		- **Verantwortung**: Enthält eigene Resource Records.
+		- **Beispiel**: `sales.example.com` kann eine Zone in der Domain `example.com` sein.
+		- **Einsatz**: Verwaltung spezifischer Teile einer Domain.
+	- SOA = Start of Authority
+		- markiert den Beginn einer Zone
+		- `dig domain.de SOA`
+		- `nslookup -type=SOA domain.de“`
+	- Ausfall-Vorsorge beim DNS
+		- Primärer Server
+			- Record read / write
+		- Sekundärer Server
+			- schreibgeschützte Kopie des Primary Servers
+	- DNS-Flags:
+		- Truncated
+		- Non-authenticated data: Unacceptable
+		- Answer authenticated: Answer [...] authenticated by server
+	- Besonderheit bei der Authentifizierung von autoritativen Nameserver:
+		- Er ist der autoritative Nameserver. Daher braucht und kann er die Nachricht nicht als authenticated markieren. Die Autentication bezieht sich lediglich auf die rekursiven Name Server, die die Kette zum Authority Server validieren müssen.
