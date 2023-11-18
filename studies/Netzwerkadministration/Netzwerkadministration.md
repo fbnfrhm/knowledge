@@ -291,3 +291,11 @@
 			- Jeder Leaf mit jedem Spine verbunden
 			- Problem: max. Anzahl der Leafs = max. Anzahl der Spine-Ports
 			- ![[Pasted image 20231118122530.png]]
+## Implementierung
+### Operations Management
+- Operations Center
+	- Zentrale Einrichtung
+	- Überwachung des Betriebs des Systems
+	-  Eigene Infrastruktur und Software zur Systemverwaltung
+	- ![[Pasted image 20231118143000.png]]
+- 
