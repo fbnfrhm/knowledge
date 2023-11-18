@@ -745,6 +745,9 @@
 4. Stellenbeschreibung für alle Mitarbeiter
 5. Beurteilung von Leistung und Verhalten der Mitarbeiter
 6. Realisierung der Vorgaben (Unternehmenskultur)
+- für MA: Stellenbeschreibung 
+- für Produkte: Maßstab, Vorgabe, DIN (z.B. Zeichnung)
+- für Prozesse: Vorgabe als Ablauf (z.B. SCRUM)
 
 ### Extras
 > Es gibt rechtliche Grundlagen und Forderungen die für die Erfüllung der Qualität nach wirtschaftlichen Gesichtspunkten notwendig sind.
@@ -830,3 +833,106 @@
 	- D = Ignorieren
 ### Sie können eine Aufgabenstellung in ihrem Ablauf mittels Managementkreislauf darstellen!
 ![[Pasted image 20231111122312.png]]
+
+# Zusammenfassung Betriebswirtschaft
+## Teil 1
+- **Nachhaltigkeit**
+> **Nachhaltigkeit** führt zu langfristigen wirtschaftlichen Erfolgen ohne ökologische Verluste und mit einem friedlichen Zusammenleben
+- Bestandteile der Nachhaltigkeit:
+	- Ökonomie, Ökologie, soziale Beziehungen (S. 9)
+- Unternehmen = rechtlich, wirtschaftlich, finanzielle organisierte Einheit (S. 6)
+- HR, FR, MR (S. 8)
+- Koordination:
+	- HR, MR, FR räumlich, zeitlich ordnen
+- Polypol, Oligopol, Monopol (S. 12)
+- Merkmale des Unternehmens - äußere Einflussfaktoren
+	- ![[Pasted image 20231117144313.png]]
+- ![[Pasted image 20231117145133.png]]
+- Management (S. 20)
+	- Institutionell
+		- Person, Personengruppe, ...
+	- Funktionell
+		- Ziel, Planen, Orga, ...
+> Management sind Personen, Organisationen oder Leitungsfunktionen, die die Funktion der Planung, Organisation, Führung und Controlling in einem Unternehmen ausüben.
+- Subvention = etwas erhalten
+- Förderung = etwas neues voranbringen
+- Kontrolle = einmaliger Prozess (s. 26)
+- Controlling = permanenter Prozess (s. 26)
+- Führung (s. 29)
+	- Beeinflussung von Personen
+	- Personenbezogen
+- Leitung (s. 29)
+	- formelle Machtausübung
+	- Funktionsbezogen
+- Realitätsabgleich beim Informationsfluss:
+	- Gegenstrom-Methode
+		- Anforderungen von oben
+		- Machbarkeit von unten
+- ![[Pasted image 20231117152930.png]] S. 37
+- Kompetenz (Befugnisse) einer Stelle (S. 38)
+	- Weisung, Entscheidung, Verfügnisse, Vertretung, Information
+- Zentralität (s. 40)
+	- schnelle einheitliche Führung und Entscheidung
+	- Ohne Differenzierung auf individuelle Gegebenheiten
+- Dezentralität (s. 40)
+	- Führung und Entscheidung vor Ort --> hohe Akzeptanz
+	- langsame Gesamtumsetzung von Standards vor Ort
+- ![[Pasted image 20231117154348.png]] (S. 46)
+	- Zu Top-Down und Bottom-Up gehört noch die Gegenstrommethode
+- Verantwortung = Pflicht zur Aufgabenerfüllung (S. 57)
+- Center-Organisation (S. 58, 73)
+	- setzt auf bestehende Organisationsform auf
+	- nebenläufig zum eigtl. Betrieb
+- Primärorganisationen (S. 59ff)
+- Personalplanung (S. 75)
+	- qualitativ, quantitativ
+- Zeiträume: strategisch, taktisch, operativ (S. 76)
+- Einordnung der Personalbedarfs- und Entwicklungsplanung (S. 78)
+	- ![[Pasted image 20231117155452.png]]
+- Quantitative Planung des Personals (S. 80)
+	- Ersatz-, Neu-, Mehr-, Reserve-, Nachhol-Bedarf
+- Personalplanung - Vorwärtskalkulation (S. 83)
+- Personalbedarfsrechnung (S. 91ff)
+- Qualitative Planung --> Kompetenzen eines MA (fachlich, methodisch, persönlich) (S. 110f)
+- innerbetriebliche Personalentwicklung (S. 114)
+	- ![[Pasted image 20231117160243.png]]
+	- S. 119f ![[Pasted image 20231117160719.png]]
+- Förderung:
+	- Job-Enrichment
+		- Zusätzliche qualifizierte Aufgaben
+	- Job-Enlargement
+		- Zusätzliche quantitative Aufgaben
+	- Job-Rotation
+		- Systematischer Arbeitsplatzwechsel
+- Einflussfaktoren bei der Personalbeschaffung:(S. 131)
+	- Anforderungsprofil
+	- Präferenz des Unternehmens
+	- Arbeitsmarkt
+	- Unternehmensstandort
+	- Budget
+	- Zeit
+- externe Beschaffung (S. 132f)
+
+| Vorteile | Nachteile |
+| :----- | :---- |
+| größere Auswahl | hoher Aufwand |
+| neue Perspektiven | Notwendigkeit der Einarbeitung |
+| Erfahrungen einkaufen | teurer (andere Gehaltsvorstellungen) |
+
+- Personalanpassung (S. 137) --> Imagewirksam
+	- Maßnahmen zur Verringerung des Imageverlust
+		- Outplacement-Beratung
+		- Qualifizierung, Weiterbildung, ...
+	- Sozialplan
+	- Transfergesellschaft
+	- Auffanggesellschaft
+- Ursachen zur Personalfreisetzung (S. 139)
+	- ![[Pasted image 20231117161754.png]]
+- Arten der Kündigung (S. 140)
+	- ordentliche Kündigung
+	- außerordentliche Kündigung
+	- Änderungskündigung
+- Kündigungsgründe (S. 141)
+	- ![[Pasted image 20231117161954.png]]
+- Instrumente der Freisetzung (S. 142)
+	- ![[Pasted image 20231117162023.png]]
