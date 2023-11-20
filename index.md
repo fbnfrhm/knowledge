@@ -16,3 +16,5 @@ title: Fabian's Notizen 🗒️
 - Cloud Computing
 - [[ABWL]]
 - [[Graphische Datenverarbeitung]]
+- [[Webbasierte Anwendungen]]
+- [[Netzwerkadministration]]

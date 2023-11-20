@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "studies/Webbasierte Anwendungen/Webbasierte Anwendungen.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "studies/Webbasierte Anwendungen/Webbasierte Anwendungen.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "studies/Webbasierte Anwendungen/Webbasierte Anwendungen.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "studies/Webbasierte Anwendungen/Webbasierte Anwendungen.md"
+                "file": "index.md"
               }
             }
           },
@@ -165,11 +165,11 @@
   },
   "active": "0164d914617dda06",
   "lastOpenFiles": [
+    "studies/Webbasierte Anwendungen/Webbasierte Anwendungen.md",
     "Pasted image 20231120145427.png",
     "media/pi/modules/Webbasierte Anwendungen",
     "media/pi/modules/Webbasierte Anwendungen/Pasted image 20231120142029.png",
     "studies/Netzwerkadministration/Netzwerkadministration.md",
-    "studies/Webbasierte Anwendungen/Webbasierte Anwendungen.md",
     "studies/Webbasierte Anwendungen",
     "media/pi/modules/Netzwerkadministration/Pasted image 20231118154559.png",
     "media/pi/modules/Netzwerkadministration/Pasted image 20231118151516.png",
@@ -179,7 +179,6 @@
     "media/pi/modules/Netzwerkadministration/Pasted image 20231118122153.png",
     "media/pi/modules/Netzwerkadministration/Pasted image 20231118121202.png",
     "media/pi/modules/Netzwerkadministration/Pasted image 20231118120739.png",
-    "media/pi/modules/Netzwerkadministration/Pasted image 20231118120024.png",
     "studies/ABWL/topics/Klausurvorbereitung.md",
     "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md",
     "studies/Netzwerkadministration",
