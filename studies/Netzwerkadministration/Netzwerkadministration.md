@@ -382,3 +382,20 @@
 		- Answer authenticated: Answer [...] authenticated by server
 	- Besonderheit bei der Authentifizierung von autoritativen Nameserver:
 		- Er ist der autoritative Nameserver. Daher braucht und kann er die Nachricht nicht als authenticated markieren. Die Autentication bezieht sich lediglich auf die rekursiven Name Server, die die Kette zum Authority Server validieren müssen.
+- LLDP
+	- Link Layer Discovery Protocol ist ein standardisiertes Netzwerkprotokoll, das entwickelt wurde, um Informationen über Netzwerkgeräte in einem lokalen Netzwerk zu sammeln und auszutauschen. LLDP ist auf Layer 2 des OSI-Modells angesiedelt und ermöglicht es, Informationen über die direkten Nachbarn eines Geräts im Netzwerk zu ermitteln.
+- RIP
+	- Interior Gateway Protocols
+		- innerhalb eines Autonomen System (AS) angewandt
+	- ![[Pasted image 20231121163826.png]]
+	- Funktionsweise:
+		1. **Nachbarschafts-Check**: RIP-Router schnacken mit ihren direkten Nachbarn.
+		2. **Abstandsmessung**: Sie messen die Distanz zu Netzwerken in Hops.
+		3. **Regelmäßige Updates**: Alle 30 Sekunden teilen sie ihre Routeninfos.
+		4. **Wegwahl**: Kürzester Pfad (wenigste Hops) wird bevorzugt.
+		5. **15-Hop-Limit**: Alles über 15 Hops ist "too far away", Bro.
+		6. **Update bei Änderungen**: Falls sich was im Netz ändert, werden die Infos ASAP aktualisiert.
+	- nutzt UDP
+	- verdammt viel Traffic, verdammt langsam, verdammt unzuverlässig
+- Autonomes System (AS)
+	- Menge von Routern die mehrere Netzwerke verbinden mit einem gemeinsamen inneren Gateway-Protocol (IGP) und gemeinsamen Metriken, die bestimmen, wie Pakete innerhalb eines AS vermittelt werden, unter einer einzigen technischen Verwaltung

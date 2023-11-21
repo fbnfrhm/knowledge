@@ -82,7 +82,7 @@
 	- Kombination Zentraler und Dezentraler Einheiten
 ![[Pasted image 20231105113531.png]]
 - Centerorganisation
-	- unabhängig / eigenverantwortlich
+	- unabhängig / eigenverantwortlich 
 ![[Pasted image 20231105113614.png]]
 ### Sie können Vor- und Nachteile aus den Strukturen ableiten!
 - in der Klausur herleiten

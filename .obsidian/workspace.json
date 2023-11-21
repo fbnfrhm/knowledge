@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "studies/Netzwerkadministration/Netzwerkadministration.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "studies/Netzwerkadministration/Netzwerkadministration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "studies/Netzwerkadministration/Netzwerkadministration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "studies/Netzwerkadministration/Netzwerkadministration.md"
               }
             }
           },
@@ -165,28 +165,29 @@
   },
   "active": "0164d914617dda06",
   "lastOpenFiles": [
+    "studies/ABWL/topics/Klausurvorbereitung.md",
+    "media/pi/modules/ABWL/Pasted image 20231121140425.png",
+    "studies/Netzwerkadministration/Netzwerkadministration.md",
+    "Pasted image 20231121163826.png",
+    "studies/ABWL/topics/ABWL-Probeklausur.md",
+    "studies/ABWL/ABWL.md",
+    "Pasted image 20231121115658.png",
+    "Pasted image 20231121115548.png",
+    "media/pi/modules/ABWL/Pasted image 20231121115237.png",
+    "media/pi/modules/ABWL/Pasted image 20231121115226.png",
+    "media/pi/modules/ABWL/Pasted image 20231121115107.png",
+    "media/pi/modules/ABWL/Pasted image 20231121115057.png",
+    "index.md",
     "studies/Webbasierte Anwendungen/Webbasierte Anwendungen.md",
-    "Pasted image 20231120145427.png",
+    "media/pi/modules/ABWL/Pasted image 20231120145427.png",
     "media/pi/modules/Webbasierte Anwendungen",
     "media/pi/modules/Webbasierte Anwendungen/Pasted image 20231120142029.png",
-    "studies/Netzwerkadministration/Netzwerkadministration.md",
     "studies/Webbasierte Anwendungen",
-    "media/pi/modules/Netzwerkadministration/Pasted image 20231118154559.png",
-    "media/pi/modules/Netzwerkadministration/Pasted image 20231118151516.png",
-    "media/pi/modules/Netzwerkadministration/Pasted image 20231118145716.png",
-    "media/pi/modules/Netzwerkadministration/Pasted image 20231118143000.png",
-    "media/pi/modules/Netzwerkadministration/Pasted image 20231118122530.png",
-    "media/pi/modules/Netzwerkadministration/Pasted image 20231118122153.png",
-    "media/pi/modules/Netzwerkadministration/Pasted image 20231118121202.png",
-    "media/pi/modules/Netzwerkadministration/Pasted image 20231118120739.png",
-    "studies/ABWL/topics/Klausurvorbereitung.md",
     "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md",
     "studies/Netzwerkadministration",
     "studies/Untitled.md",
     "media/pi/modules/Netzwerkadministration",
-    "studies/ABWL/ABWL.md",
     "media/pi/modules/GDV/pasted",
-    "index.md",
     "media/pi/modules/GDV",
     "studies/Graphische Datenverarbeitung",
     "Textdokument (neu).txt",
