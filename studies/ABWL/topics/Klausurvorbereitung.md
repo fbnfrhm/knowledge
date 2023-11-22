@@ -936,3 +936,40 @@
 	- ![[Pasted image 20231117161954.png]]
 - Instrumente der Freisetzung (S. 142)
 	- ![[Pasted image 20231117162023.png]]
+
+# Wichtigste Themen
+- Unternehmen, Definition, etc..
+- HR, MR, FR
+- KVP
+- Nachhaltigkeit
+- Poly-, Oligo-, Monopol
+- Balance-Score-Card
+- Mangementkreislauf
+	- PDCA
+- ISHIKAWA / Ursache-Wirkungsdiagramm
+- SMART (Zielfindung)
+- Leitbild eines Unternehmens
+- Planungszeiträume:
+	- strategisch, taktisch, operativ
+- Instrumente für Abbildung einer Organisation
+	- Organigramm, Informationsfluss, Stellenbeschreibung
+- SWOT-Analyse
+- FMEA-Analyse (Beschreiben!)
+- Organisationsformen: Ein-, Mehr-, Stabsliniensystem
+	- Funktionalorganisation, Spartenorganisation, Center-Organisationen
+	- Matrix-Organisation
+- Kompetenz als Befugnis zur Führung
+	- Vollkompetenz, Teilkompetenz, ...
+- BCG-Matrix (Produkte und MA)
+- Marketing
+	- 4 Säulen = Produkt, Kontrahierungs-, Kommunikations-, Distributionspolitik
+	- AIDA-Prinzip
+	- Push-, Pull-Marketing
+- Risikomanagement
+	- Ampelsystem (Tabelle, nicht das Dashboard)
+	- Eisenhower, ABC-Analyse
+- Verantwortung
+- Anforderungen an den Projektleiter
+- Motivation von Mitarbeitern
+	- faires Entgelt, ...
+- Investitionseinteilung (Teil 3)
