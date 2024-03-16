@@ -11,4 +11,4 @@
 4. [[Datenaustauschformate]]
 
 ## Extras
-- [[Klausurvorbereitung]]
+- [[studies/Systementwicklung/topics/Klausurvorbereitung]]

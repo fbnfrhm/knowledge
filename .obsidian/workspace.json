@@ -13,36 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "studies/Netzwerkadministration/Netzwerkadministration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f0a6440a0a8b753",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
-            }
-          },
-          {
-            "id": "d3ddaebd46d52517",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "studies/Netzwerkadministration/Netzwerkadministration.md",
+                "file": "studies/Computer Forensik/Klausurvorbereitung.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "studies/Netzwerkadministration/Netzwerkadministration.md",
+                "file": "studies/Computer Forensik/Klausurvorbereitung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "studies/Netzwerkadministration/Netzwerkadministration.md",
+                "file": "studies/Computer Forensik/Klausurvorbereitung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "studies/Netzwerkadministration/Netzwerkadministration.md"
+                "file": "studies/Computer Forensik/Klausurvorbereitung.md"
               }
             }
           },
@@ -173,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,11 +163,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d3ddaebd46d52517",
+  "active": "0164d914617dda06",
   "lastOpenFiles": [
+    "index.md",
+    "Locardsches Prinzip.png",
+    "Beweisführung.png",
+    "studies/Computer Forensik/Klausurvorbereitung.md",
+    "studies/Netzwerkadministration/Netzwerkadministration.md",
+    "studies/Computer Forensik",
     "studies/ABWL/topics/Klausurvorbereitung.md",
     "studies/ABWL/ABWL.md",
-    "studies/Netzwerkadministration/Netzwerkadministration.md",
     "media/pi/modules/ABWL/Pasted image 20231121140425.png",
     "Pasted image 20231121163826.png",
     "studies/ABWL/topics/ABWL-Probeklausur.md",
@@ -200,11 +182,8 @@
     "media/pi/modules/ABWL/Pasted image 20231121115226.png",
     "media/pi/modules/ABWL/Pasted image 20231121115107.png",
     "media/pi/modules/ABWL/Pasted image 20231121115057.png",
-    "index.md",
     "studies/Webbasierte Anwendungen/Webbasierte Anwendungen.md",
-    "media/pi/modules/ABWL/Pasted image 20231120145427.png",
     "media/pi/modules/Webbasierte Anwendungen",
-    "media/pi/modules/Webbasierte Anwendungen/Pasted image 20231120142029.png",
     "studies/Webbasierte Anwendungen",
     "studies/Graphische Datenverarbeitung/Graphische Datenverarbeitung.md",
     "studies/Netzwerkadministration",
@@ -215,7 +194,6 @@
     "studies/Graphische Datenverarbeitung",
     "Textdokument (neu).txt",
     "media/pi/modules/ABWL",
-    "media/pi/Untitled",
     "studies/IT-Trends/topics/Prüfungsvorbereitung.md",
     "studies/Systementwicklung/Systementwicklung.md",
     "studies/Systementwicklung/topics/Klausurvorbereitung.md",
