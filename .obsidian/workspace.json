@@ -13,13 +13,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "studies/ABWL/topics/Klausurvorbereitung.md",
+                "file": "studies/Netzwerkadministration/Netzwerkadministration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2f0a6440a0a8b753",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
+          },
+          {
+            "id": "d3ddaebd46d52517",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "studies/Netzwerkadministration/Netzwerkadministration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "studies/ABWL/topics/Klausurvorbereitung.md",
+                "file": "studies/Netzwerkadministration/Netzwerkadministration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "studies/ABWL/topics/Klausurvorbereitung.md",
+                "file": "studies/Netzwerkadministration/Netzwerkadministration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "studies/ABWL/topics/Klausurvorbereitung.md"
+                "file": "studies/Netzwerkadministration/Netzwerkadministration.md"
               }
             }
           },
@@ -163,11 +186,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0164d914617dda06",
+  "active": "d3ddaebd46d52517",
   "lastOpenFiles": [
+    "studies/ABWL/topics/Klausurvorbereitung.md",
     "studies/ABWL/ABWL.md",
     "studies/Netzwerkadministration/Netzwerkadministration.md",
-    "studies/ABWL/topics/Klausurvorbereitung.md",
     "media/pi/modules/ABWL/Pasted image 20231121140425.png",
     "Pasted image 20231121163826.png",
     "studies/ABWL/topics/ABWL-Probeklausur.md",
