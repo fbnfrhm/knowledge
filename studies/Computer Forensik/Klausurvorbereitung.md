@@ -305,3 +305,140 @@
 	- Zusammenfassung der wichtigsten Untersuchungsergebnisse
 	- Detaillierte Untersuchungsergebnisse
 - Keine darüber hinaus gehenden Arbeiten durchführen, da ansonsten Gefahr der Befangenheit
+
+## Wiederholung II
+- Beteiligte Akteure in der ISO27037
+	- Ersteinschreiter für digitale Beweismittel (DEFR)
+	- Spezialist für digitale Beweismittel (DES)
+- Grundsätze der digitalen Beweisführung
+	- Vollständigkeit
+	- Verlässlichkeit
+	- Relevanz
+	- (Dokumentation)
+- Identifikationsphase
+	- Dokumentieren was man vorfindet
+	- Alle Betroffenen Geräte identifizieren/einordnen
+	- Inhalte auf den Bildschirmen
+	- Stromversorgung sicherstellen
+	- Personen von Geräten fernhalten
+- Mitnahme/Sicherung
+	- Mitnahme
+		- Geräte werden im ist Zustand mitgenommen
+	- Sicherung
+		- Daten vor Ort sichern
+		§ z.B. Verbindung zu Cloud Diensten könnte nach Mitnahme getrennt sein
+- Totmannschaltung
+	- Mechanismus um die Abwesenheit des Nutzers festzustellen
+	- Mögliche Verschlüsselung/Löschung des Systems
+	- Smartcard, Bluetooth, Spule an der Tür
+- Mitnahme von ausgeschalteten digitalen Geräten
+	- Geräte werden nicht eingeschaltet
+	- Alle Kabel trennen
+	- Keine Datenträger am Gerät lassen (CD, …)
+	- Laptops sicherstellen, dass aus/nicht aktivierbar (z.B. Batterie entfernen)
+	- Zustand des Vorfindens und Ablauf der Mitnahme dokumentieren
+- Erhebung von nicht digitalen Beweismitteln
+	- Fingerabdrücke
+	- Bilder (Vorgefunden & selbst schießen)
+	- Passwörter
+	- Notizbücher
+	- Überreste auf der Tastatur, die auf das Passwort schließen könnten
+- Hashwerte
+	- Überprüfung der Integrität der Daten
+	- Einwegfunktion
+	- Zeichenfolge zur Identifikation des Datensatzes
+	- Passt die Kopie zum Originalen / ist sie unverändert?
+	- Urheberrecht
+	-  Finden von Kinderpornographie
+	- Ausschließen von offiziellen/guten Daten (vom Hersteller)
+	-  Speichern von Passwörtern
+
+# Bekämpfung von Computerkriminalität
+## Sicherheitsvorfallbehandlung
+- Als Sicherheitsvorfall wird dabei ein unerwünschtes Ereignis bezeichnet, das Auswirkungen auf die  Informationssicherheit hat und in der Folge große Schäden nach sich ziehen kann
+- Vorgehen / Behandlung von Sicherheitsvorfällen sollte vorher konzipiert und eingeübt werden
+	-  Allgemeine Informationen
+	- Computer Emergency Response Teams
+	- SANS Incident Response und Incident Handling
+	- IT Task Force Bund
+	- IT Grundschutz und Incident Handling Ansätze
+	- IT Sicherheitsgesetz – Critical Infrastructure Protection
+## Incident Handling 
+> Ein organisierter Ansatz zur Lösung und Bewältigung der Folgen einer Sicherheitsverletzung respektive eines Angriffs auf die IT Infrastruktur.
+
+- Ziele:
+	- geeignete Handhabung der Situation
+	- Begrenzung / Verringerung des Schadens
+	- Minimierung von Kosten und Recovery-Zeit
+	- Erkennen der Ursache --> Verhindern weiterer Zwischenfälle
+
+- CERT: Computer Emergency Response Team: Vertreter aus Rechts-, Personal- und PR-Abteilungen
+
+### SANS-Institut (SysAdmin, Networking and Security Center)
+![[SANS.png]]
+
+## E-Mail-Header-Analyse
+- Aufbau:
+	- (mehrere) `Received:`-Einträge
+		- Liste von Servern über welche die E-Mail gelaufen ist
+
+- manipulierbare Angaben:
+	- From, To, Date, Subject, Message-ID
+- schwer zu manipulieren: Received
+
+## Techniken und Untersuchungsplanung für die digitale Spurensuche
+- File Carving:
+	- Erkennung von Dateien anhand von Byte-(Sektor-, Cluster-)mustern, auch wenn diese nicht mehr durch das Datensystem erkannt werden
+- Hashwertüberprüfung
+	- Verwendung von Hash-Datenbanken zum Auffinden / Ausblenden von verdächtigen / unverdächtigen Dateien
+- Stichwortsuche
+- Slack-Untersuchungen
+	- Dateien füllen Sektor nicht ganz aus, unbesetzte Plätze könnten alte Dateien(-reste) enthalten
+- Untersuchung von Hibernations- und Auslagerungsdateien
+
+### RAM-Sicherung
+- Informationen im RAM:
+	- Laufende Prozesse und Dienste (Programm Executables)
+	- Geöffnete Netzwerkverbindungen
+	- Entschlüsselte Texte
+	- Passwörter (Klartext oder Hash)
+	- Informationen zu angemeldeten Benutzern
+	- Schadsoftware und deren Aktivitäten (Registry Aufrufe)
+	- Flüchtige nicht gespeicherte Dokumente oder Online Inhalte
+
+- Vergleichbarkeit einzelner Sicherungstechniken mit folgender Einteilung:
+	- **Korrektheit**
+		- das forensische Abbild stimmt mit dem realen Hauptspeicher soweit möglich überein
+	- **Atomarität**
+		- die Sicherung erfolgt in einer atomar fortlaufend durchgeführten Leseoperation ohne Unterbrechung
+	- **Integrität**
+		- bezeichnet den prozentualen Anteil an geänderten Speicherseiten im Bezug auf alle Speicherseiten, die zu einem Zeitpunkt geherrscht haben (Übernahme des Asservates durch den Forensiker etwa)
+	- **Verfügbarkeit**
+		-  ist die Methode verfügbar für bestimmte Sicherungsfälle
+
+- RAM-Sicherung auf unterschiedlichen Ebenen möglich:
+	- User-Level
+	- Kernel-Level
+	- Crash-Dump
+
+- RAM-Sicherungstechniken
+	- Bus-based (extern)
+	- Hardware-based (intern)
+	- Cold-Boot ohne RAM-Transfer
+		- auf dem Hostsystem, mit eigenem Betriebssystem (z.B. Live-USB)
+	- Cold-Boot mit RAM-Transfer
+		- auf eigenem Hostsystem, mit eigenem Betriebssystem 
+	- Hibernation-based
+		- Speicherung der RAM-Inhalte in Hibernation Dateien durch das OS
+	- Virtualisation-based
+		- Anlegen von VM-Snapshots zur Sicherung von RAM-Inhalte 
+
+- Probleme bei Cold Boot Sicherungen
+	- Boot Reihenfolge falsch
+	- BIOS Fast Boot abgeschalten
+	- BIOS POST & RAM Test (nullt den RAM)
+	- UEFI Secure Boot
+	- DDR3 und DDR4 Scrambling
+	- ECC RAM (löscht bei Initialisierung RAM Inhalte)
+
+
