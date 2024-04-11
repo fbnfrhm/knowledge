@@ -441,4 +441,78 @@
 	- DDR3 und DDR4 Scrambling
 	- ECC RAM (löscht bei Initialisierung RAM Inhalte)
 
+# Betriebssysteme
+## Windows
+- Unterstützte Dateisysteme:
+	- FAT12/16/32, NTFS, exFAT, CDFS/UDF
+- unterstützte Architekturen
+	- x86-32 Bit
+	- x64/iA64 - 64 Bit System
+- interne Datenaufteilung in drei Kategorien:
+	- Benutzerdaten
+		- Eigene Dateien
+		- Dokumente und Einstellungen
+		- Users
+	- Systemdaten --> "WINDOWS", "WIN", "WINNT"
+	- Softwaredaten --> "Programme", "Programm Files"
+	- andere wichtige Pfade:
+		- "\\Anwendungsdaten", "\\Lokale EInstellungen\\Anwendungsdaten"
+		- \\AppData\\Local“, „\\AppData\\LocalLow“ und „\\AppData\\Roaming“
+- Benutzerverwaltung mittels SID
+	- Security Identifier
+	- Auszeichnung von Systemen, Benutzern und Gruppen
+	- Bindung der Zugriffsrechte und Eigentümer der Access Control Lists aus NTFS an die SID
+- Speicherung von Einstellungen in der Registrierungsdatenbank:
+	- Aufteilung in Registrierungshives, Keys und Values
+	- **„Root-Laufwerk/Windows Verzeichnis/System32/Config“**
+	- **„Root-Laufwerk/Benutzerdaten Verzeichnis/Benutzername/“**
+	- Auslesen der Nutzerkonten:
+		- SAM/Domains/Account/Users
+- Fundstellen:
+	- ![[Fundstellen Windows.png]]
 
+## Mac OS X 
+![[Artefakte.png]]
+
+
+## Hacking
+- verdächtige Prozesse können sein:
+	- Prozesse ohne gültiges Zertifikat
+	- Anwendungen, welche im Ordner Windows liegen, statt in System32
+	- Prozesse mit auffälligen URLs
+	- Prozesse die an TCP-Verbindungen lauschen
+	- Prozesse ohne Beschreibung, ohne Firmenname, kein Symbol
+
+# Dateisysteme
+- Partitionierung
+	- MBR = Master Boot Record
+	- GPT = GUID Partition Table
+- MAC-Time:
+	- M = Modification Time (Änderungszeit)
+	- A = Access Time (letztmalige Zugriffszeit)
+	- C = Change / Creation Time (Änderungszeit / Erzeugungszeit)
+- Slack (Schlupfspeicher)
+	- Bezeichnung für einen Versatz, der beim Speichern von Daten auf Sektor basierten Datenträgern auftritt
+	- Formen von Slackspeicher:
+		- Datei-Slack
+		- Partition-Slack
+		- Hauptspeicherslack
+
+## FAT 
+- exFAT, VFAT, TFAT
+- FAT = File Allocation Table
+- TFAT = Transaction-Safe FAT
+- Files werden nur als gelöscht markiert: 0xE5
+
+## NTFS
+- alles ist eine Datei
+
+## ext3/ext4
+-  Datenblöcke einer Datei werden nahe beieinander gehalten, um so lange Wege des Lesekopfs zu minimieren 
+- Kopien zentraler Datenstrukturen werden mehrfach auf dem Datenträger verteilt
+ ![[Pasted image 20240411175638.png]]
+ - Magic Byte: 0x53EF
+ - keine File-Slacks
+ - Ext3-Journal:
+	 - Protokollation von Updates im Dateisystem
+ - 

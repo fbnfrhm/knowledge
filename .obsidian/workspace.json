@@ -128,14 +128,29 @@
                 "file": "studies/Computer Forensik/Klausurvorbereitung.md"
               }
             }
+          },
+          {
+            "id": "0d7e31e1636cb428",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "a6c9d2fa5f275a29",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,31 +159,33 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "0164d914617dda06",
   "lastOpenFiles": [
-    "SANS.png",
+    "Pasted image 20240411175638.png",
+    "Artefakte.png",
     "studies/Computer Forensik/Klausurvorbereitung.md",
+    "Fundstellen Windows.png",
     "studies/Maschinelles Lernen/Maschinelles Lernen.md",
     "media/pi/modules/Netzwerkadministration/Pasted image 20231121163826.png",
-    "media/pi/modules/Computer Forensik",
-    "studies/Maschinelles Lernen",
-    "media/pi/modules/Computer Forensik/Mitnahme_ausgeschaltete_Geräte.png",
     "media/pi/modules/Computer Forensik/Mitnahme_digitaler_Geräte_Live_Daten.png",
     "media/pi/modules/Computer Forensik/Mitnahme_eingeschalteter_Geräte.png",
-    "index.md",
+    "media/pi/modules/Computer Forensik/Mitnahme_ausgeschaltete_Geräte.png",
     "media/pi/modules/Computer Forensik/Locardsches Prinzip.png",
     "media/pi/modules/Computer Forensik/Beweisführung.png",
+    "media/pi/modules/Computer Forensik",
+    "SANS.png",
+    "studies/Maschinelles Lernen",
+    "Mitnahme_ausgeschaltete_Geräte.png",
+    "index.md",
     "studies/Netzwerkadministration/Netzwerkadministration.md",
     "studies/Computer Forensik",
     "studies/ABWL/topics/Klausurvorbereitung.md",
     "studies/ABWL/ABWL.md",
-    "media/pi/modules/ABWL/Pasted image 20231121140425.png",
     "studies/ABWL/topics/ABWL-Probeklausur.md",
-    "Pasted image 20231121115658.png",
-    "Pasted image 20231121115548.png",
     "studies/Webbasierte Anwendungen/Webbasierte Anwendungen.md",
     "media/pi/modules/Webbasierte Anwendungen",
     "studies/Webbasierte Anwendungen",
