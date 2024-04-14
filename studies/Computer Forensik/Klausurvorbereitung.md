@@ -510,7 +510,7 @@
 ## ext3/ext4
 -  Datenblöcke einer Datei werden nahe beieinander gehalten, um so lange Wege des Lesekopfs zu minimieren 
 - Kopien zentraler Datenstrukturen werden mehrfach auf dem Datenträger verteilt
- ![[Pasted image 20240411175638.png]]
+ ![[MBR_Aufbau.png]]
  - Magic Byte: 0x53EF
  - keine File-Slacks
  - Ext3-Journal:

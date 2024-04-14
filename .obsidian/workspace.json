@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "studies/Computer Forensik/Klausurvorbereitung.md",
+                "file": "studies/Verteilte Systeme/Klausurvorbereitung.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "studies/Computer Forensik/Klausurvorbereitung.md",
+                "file": "studies/Verteilte Systeme/Klausurvorbereitung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "studies/Computer Forensik/Klausurvorbereitung.md",
+                "file": "studies/Verteilte Systeme/Klausurvorbereitung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "studies/Computer Forensik/Klausurvorbereitung.md"
+                "file": "studies/Verteilte Systeme/Klausurvorbereitung.md"
               }
             }
           },
@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,21 +166,24 @@
   },
   "active": "0164d914617dda06",
   "lastOpenFiles": [
-    "Pasted image 20240411175638.png",
-    "Artefakte.png",
+    "Pasted image 20240414120213.png",
+    "media/pi/modules/Verteilte Systeme/Cluster Computinh.png",
+    "media/pi/modules/Verteilte Systeme/Asymetrische_Verschlüsselung.png",
+    "studies/Verteilte Systeme/Klausurvorbereitung.md",
+    "media/pi/modules/Verteilte Systeme/digital_signatures.png",
+    "media/pi/modules/Verteilte Systeme/Transparenz_Typen.png",
+    "media/pi/modules/Verteilte Systeme/Transparency.png",
+    "media/pi/modules/Verteilte Systeme/Centralized-Decentralized-Distributed.png",
+    "media/pi/modules/Computer Forensik/MBR_Aufbau.png",
+    "media/pi/modules/Verteilte Systeme",
     "studies/Computer Forensik/Klausurvorbereitung.md",
-    "Fundstellen Windows.png",
+    "studies/Verteilte Systeme",
+    "media/pi/modules/Computer Forensik/Artefakte.png",
+    "media/pi/modules/Computer Forensik/Fundstellen Windows.png",
     "studies/Maschinelles Lernen/Maschinelles Lernen.md",
     "media/pi/modules/Netzwerkadministration/Pasted image 20231121163826.png",
-    "media/pi/modules/Computer Forensik/Mitnahme_digitaler_Geräte_Live_Daten.png",
-    "media/pi/modules/Computer Forensik/Mitnahme_eingeschalteter_Geräte.png",
-    "media/pi/modules/Computer Forensik/Mitnahme_ausgeschaltete_Geräte.png",
-    "media/pi/modules/Computer Forensik/Locardsches Prinzip.png",
-    "media/pi/modules/Computer Forensik/Beweisführung.png",
     "media/pi/modules/Computer Forensik",
-    "SANS.png",
     "studies/Maschinelles Lernen",
-    "Mitnahme_ausgeschaltete_Geräte.png",
     "index.md",
     "studies/Netzwerkadministration/Netzwerkadministration.md",
     "studies/Computer Forensik",
@@ -194,8 +198,6 @@
     "studies/Untitled.md",
     "media/pi/modules/Netzwerkadministration",
     "media/pi/modules/GDV/pasted",
-    "media/pi/modules/GDV",
-    "studies/Graphische Datenverarbeitung",
     "studies/IT-Trends/topics/Prüfungsvorbereitung.md",
     "studies/Systementwicklung/Systementwicklung.md",
     "studies/Systementwicklung/topics/Klausurvorbereitung.md",
@@ -209,7 +211,6 @@
     "studies/Systementwicklung/topics/Einführung.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der logischen Sicht.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der Ablauf-Sicht.md",
-    "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der physikalischen Sicht.md",
-    "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der strukturellen Sicht.md"
+    "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der physikalischen Sicht.md"
   ]
 }
