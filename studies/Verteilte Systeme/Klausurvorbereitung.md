@@ -152,9 +152,183 @@
 	- (Zusammenfassung mehrerer Cluster)
 	- geografische Verteilung
 
+## Enterprise Application Integration
 ![[Pasted image 20240414120213.png]]
 
-# Foliensatz 4
+## TPM: Transaction Processing Monitor
+![[Pasted image 20240416103911.png]]
+- TP Monitor = Verantwortlich für die Koordination der Ausführung von Transaktionen auf unterschiedlichen Servern
+
+## Middleware
+![[Pasted image 20240416104130.png]]
+- RPC (Remote Procedure Call):
+	- Aufruf einer lokalen Prozedur
+	- Verpacken als Nachricht
+	-  Verarbeitung
+	- Antwort als Nachricht
+	- Ergebnis als `return` vom Aufruf
+- MOM (Message Oriented Middleware)
+	- An logischen Kontaktpunkt senden (Publish)
+	- Weiterleitung an `subscribed` Applications (Subscription)
+
+## Wie integriert man Applikationen
+- Dateiaustausch
+- Geteilte Datenbanken
+- RPC
+- Messaging
+	- Voraussetzung für RPC: Aufrufer und Aufgerufener müssen zeitlich synchronisiert sein
+	- Voraussetzung hier: entfällt, entkoppelt
+
+## Verteilte, allgegenwärtige Systeme
+- verteilte Systeme mit kleinen, mobilen Nodes die in einem großen System integriert sind
+- Charakteristisch: Integriert sich fließend in die Umgebung des Nutzers
+- Stichwort: **Internet of Things**
+- überlappende Subtypen:
+	-  Ubiquitäre Computersysteme: 
+		- ständige Aktion zwischen System und Nutzer
+		- Kernelemente:
+			- Verteilung
+				- Geräte sind vernetzt und verteilt
+			- Interaktion
+				- Interaktion zwischen Nutzern und Geräten
+			- Context Awareness
+				- System kennt den Kontext des Nutzers
+			- Autonomie
+			- Intelligenz
+				- System kann viele Aktionen und Interaktionen handhaben
+	- Mobile Computing Systeme: 
+		- Geräte sind von Natur aus mobil
+		- Geräte verändern ihre Position --> Discovery
+		- Probleme mit instabilen Verbindungen
+		- Verbindung zu Servern --> Cloud Computing
+	- Sensor- (und Aktuator-) Netze: 
+		- Erfassen und Interaktion (mit) der Umgebung
+		- Eigenschaften:
+			- viele Sensoren
+			- Einfacher Aufbau (kleine Memory- / Rechen- / Kommunikationskapazität)
+			- oft Batterie betrieben (oder Batterielos)
+
+# Architektur
+Aufbau eines Styles:
+- (replaceable) components With well-defined interfaces
+- the way that components are connected to each Other
+- the data exchanged between components
+- how these components and connectors are jointly configured into a system
+
+Connector:
+- Mechanismus zur Vermittlung der Kommunikation, Koordination oder Kooperation unter Komponenten.
+- Beispiel: Facilitites für (Remote) procedure call, Messaging oder Streaming
+
+## Layered Architecture
+![[Pasted image 20240416111621.png]]
+- Request / Response downcall = ähnlich zu ISO/OSI
+- One-way Call = Wie Request / Response downcall mit Skipppen von Layers
+- Down & Up calls = Erlauben von Upcalls
+
+### Protokoll, Services und Interfaces
+![[Pasted image 20240416112028.png]]
+- Interface = Regelwerk für die Kommunikation zwischen den Layers
+
+## Two-party communication
+```python
+s = socket(AF_INET, SOCK_STREAM)
+```
+- `AF_INET` = Internet-Socket
+- `SOCK_STREAM` = TCP-Socket
+- `SOCK_DGRAM` = UDP-Packet
+
+## Three-layered View
+- Application-interface layer
+- Processing layer
+- Data layer
+
+## Application Layering
+![[Pasted image 20240416113346.png]]
+
+## Service-oriented Archtecture (SOA)
+![[Pasted image 20240416113504.png]]
+- Komponenten = Objekte, verbunden durch Procedure Calls
+	- können auf unterschiedlichen Maschinen sein
+- Encapsulation = Objekte halten ihre Daten selbst und machen diese nur über Methoden zugänglich
+![[Pasted image 20240416113953.png]]
+
+## Resource-based (RESTful) Architectures
+- Verteiltes System als eine Kollektion von Ressourcen, die individuell von Komponenten gemanaged werden
+	- Ressourcen sind identifizierbar durch ein einziges naming scheme
+	- All services offer the same interface
+	- Messages von einem Service sind selbsterklärend
+	- Komponenten vergessen alles über einen Aufrufer nach Erledigung der Aufgabe
+
+## Publish-Subscribe Architecture
+![[Pasted image 20240416114703.png]]
+- zeitliche Kopplung:
+	- wird vorgehalten (Mailbox)
+	- wird verworfen (Direct) wenn Kommunikationspartner nicht erreichbar
+- referentielle Kopplung:
+	- gekoppelt: direkte Nachricht
+	- entkoppelt: zur Verfügung stellen einer Information (für alle)
+- topic-based subscription = bspw. `device.temperature`
+- content-based subscription = Inhalt der Nachricht, bspw. alle Nachrichten mit `°C` als Inhalt --> ernsthafte Skalierungsprobleme
+
+## Middleware
+![[Pasted image 20240416120242.png]]
+- enthält häufig genutzte Komponenten und Funktionen die nicht separat von den eigentlichen Applikationen implementiert werden müssen.
+
+### Wrapper / Adapter und Broker
+- Wrapper = Schnittstelle zu einer Applikation
+- Broker = Vereinigung von Schnittstellen an einen zentralen Punkt
+	- Ziel: Reduzierung / Vereinheitlichung von Wrappern
+
+## Interceptor
+- Unterbrechung des eigtl. Aufrufes durch den Aufruf einer weiteren Funktion (`Interceptor`) zur Vorbereitung, Authentifizierung, Logging oder sonstiges Funktionen
+
+## Layered Architecture 2
+### Basic Client-Server Model
+![[Pasted image 20240416121650.png]]
+- Servers = Bereitstellung von Services
+- Clients = Nutzen von Services
+
+### Multi-tiered centralized system architectures
+![[Pasted image 20240416122008.png]]
+
+### Three-tiered Architecture
+- Client und Server zur selben Zeit:
+![[Pasted image 20240416122139.png]]
+- AS = Applicaiton Server
+- DS = Database Server
+
+## Alternative Organisationen
+- Vertikale Verteilung 
+	- Aufteilung einer Applikation in 3 logische Layer
+	- Layer werden auf unterschiedlichen Servern ausgeführt
+- Horizontale Verteilung
+	- Client oder Server kann physisch in mehrere logische equivalente Teile geteilt werden
+	- Jeder Teil arbeitet auf eigenen Ausschnitt der Daten
+- Peer-to-Peer Architekturen
+	- Prozesse sind alle gleich
+	- Prozesse sind Client und Server zugleich 
+
+# Processes
+## Threads
+- virtuelle Prozessoren in Software, basierend auf physischen Prozessoren
+	- Prozessor: Bereitstellung von möglichen Instruktionen mit der Möglichkeit die automatisch ausführen zu können
+	- Thread: minimaler Software Prozessor in dessen Kontext eine Serie von Instruktionen ausgeführt wird. Wird der Kontext eines Threads gespeichert, wird dieser gestoppt und dessen Daten gespeichert für die Ausführung in einer weiteren Stage. 
+	- Prozess: Software Prozessor in dessen Kontext mehrere Threads ausgeführt werden können.
+- Vorteile:
+	- avoid needless blocking
+	- exploit paralellism
+	- avoid process switching
+### Context
+- Process context: The minimal collection of values stored in registers and memory, used for the execution of a thread (i.e., thread context, but now also at least MMIJ register values).
+- Processor context: The minimal collection of values stored in the registers of a processor used for the execution of a series of instructions (e.g., stack pointer, addressing registers, program counter).
+- Thread context: The minimal collection of values stored in registers and memory, used for the execution of a series of instructions (i.e., processor context, State).
+
+## Threads in Distributed Systems
+- Dispatcher / Worker Model:
+	- Verteilung von Aufgaben einer Request / mehrerer Requests auf verschiedene Worker Threads
+![[Pasted image 20240416124634.png]]
+
+## Processes on the Server Side
 
 # Foliensatz 5
 
