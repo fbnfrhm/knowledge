@@ -11,15 +11,34 @@
             "id": "0164d914617dda06",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "studies/Verteilte Systeme/Klausurvorbereitung.md",
-                "mode": "source",
-                "source": false
+                "file": "media/pi/modules/Verteilte Systeme/Object_Servers.png"
+              }
+            }
+          },
+          {
+            "id": "6a54dd04a2c48359",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "media/pi/modules/Verteilte Systeme/Akamai_CDN.png"
+              }
+            }
+          },
+          {
+            "id": "912cc7bf918a8bd8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "media/pi/modules/Verteilte Systeme/Akamai_CDN.png"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "studies/Verteilte Systeme/Klausurvorbereitung.md",
+                "file": "media/pi/modules/Verteilte Systeme/Akamai_CDN.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "studies/Verteilte Systeme/Klausurvorbereitung.md",
+                "file": "media/pi/modules/Verteilte Systeme/Akamai_CDN.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "studies/Verteilte Systeme/Klausurvorbereitung.md"
+                "file": "media/pi/modules/Verteilte Systeme/Akamai_CDN.png"
               }
             }
           },
@@ -164,20 +183,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0164d914617dda06",
+  "active": "912cc7bf918a8bd8",
   "lastOpenFiles": [
-    "Pasted image 20240416124634.png",
-    "Pasted image 20240416122139.png",
-    "Pasted image 20240416122008.png",
-    "Pasted image 20240416121650.png",
-    "Pasted image 20240416120242.png",
-    "Pasted image 20240416114703.png",
-    "Pasted image 20240416113953.png",
-    "Pasted image 20240416113504.png",
-    "Pasted image 20240416113346.png",
-    "Pasted image 20240416112028.png",
-    "Pasted image 20240416111621.png",
+    "media/pi/modules/Verteilte Systeme/Object_Servers.png",
+    "media/pi/modules/Verteilte Systeme/Akamai_CDN.png",
     "studies/Verteilte Systeme/Klausurvorbereitung.md",
+    "media/pi/modules/Verteilte Systeme/Pasted image 20240419110522.png",
+    "media/pi/modules/Verteilte Systeme/Pasted image 20240419103555.png",
+    "media/pi/modules/Verteilte Systeme/Pasted image 20240419094533.png",
+    "media/pi/modules/Verteilte Systeme/Server Clusters.png",
+    "media/pi/modules/Verteilte Systeme/Pasted image 20240416124634.png",
+    "media/pi/modules/Verteilte Systeme/Pasted image 20240416122139.png",
+    "media/pi/modules/Verteilte Systeme/Pasted image 20240416122008.png",
+    "media/pi/modules/Verteilte Systeme/Pasted image 20240416121650.png",
     "media/pi/modules/Verteilte Systeme",
     "studies/Computer Forensik/Klausurvorbereitung.md",
     "studies/Verteilte Systeme",

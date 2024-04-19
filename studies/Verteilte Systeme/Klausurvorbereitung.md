@@ -329,7 +329,80 @@ s = socket(AF_INET, SOCK_STREAM)
 ![[Pasted image 20240416124634.png]]
 
 ## Processes on the Server Side
+### Object Servers
+![[Object_Servers.png]]
+- Activation Policy: Ausführen unterschiedlicher Schritte abhängig von der aufrufenden Anfrage
+	- Wo sind der Code und die Daten des Objekts?
+	- Welches Threading-Modell soll verwendet werden?
+	- Soll der veränderte State des Objektes behalten werden?
+- Object Adapter:
+	- Implementierung einer spezifischen Activation Policy
+### Server Clusters: Three different tiers
+![[Server Clusters.png]]
+- First Tier: Verteilen von Anfragen - Request Dispatching
 
-# Foliensatz 5
+### Request Handling
+- Kommunikation (hin und zurück) nur im First Tier: mögliches Bottleneck
+- mögliche Lösung: TCP handoff
+![[Pasted image 20240419094533.png]]
 
-# Foliensatz 6
+### When servers are spread across the Internet (Wide Area Clusters)
+- Bei Servern mit mehreren IP-Adressen Verteilung der Anfragen über DNS an nächstgelegenen Server
+- DNS behält Replikas im Blick
+- siehe: Content Delivery Networks und Akamai Edge DNS
+![[Akamai_CDN.png]]
+
+### Middleware Layer
+- Bereitstellung von allgemeinen Services und Protokollen für unterschiedliche Applikationen:
+	- Kommunikationsprotokolle
+	- (Nicht-)Zusammenführung von Daten, die für integrierte Systeme erforderlich sind
+	- Naming Protokolle
+	- Sicherheitsprotokolle
+	- Scaling Mechanisms
+
+### An Adapted Layering Scheme for Communication in Distributed Systems
+![[Pasted image 20240419103555.png]]
+
+### Types of communication
+#### Persistent vs. Transistent communication
+- Persistent:
+	- Nachricht wird von Kommunikationsserver (Middleware) gespeichert so lange wie die Zustellung dauert
+- Transistent:
+	- Kommunikationsserver verwirft die Nachricht, wenn sie nicht zugestellt werden kann
+#### Asynchronouns vs. Synchronous  communication
+- asynchron:
+	- Sender arbeitet nach Nachrichtenübermittlung weiter
+- synchron:
+	- Sender ist nach Nachrichtenübermittlung blockiert, bis die Anfrage angenommen wird
+	- Stellen zur Synchronisation:
+		- at request submission
+		- at request delivery
+		- Nach request processing
+
+#### Client / Server
+- Client Server Kommunikation: transient synchronous communication
+	- Client & Server müssen aktiv sein während der Kommunikation
+	- Client wird durch Anfrage blockiert solange er auf Rückfrage wartet und anschließend verarbeitet
+	- Server wartet nur für eingehende Anfragen und 
+- Nachteile synchroner Kommunikation:
+	- Client kann nicht weiterarbeiten beim Warten auf die Antwort
+	- Fehler müssen sofort behandelt werden
+	- Modell kann nicht für alles geeignet sein (E-Mail, Nachrichten)
+
+#### Messaging
+- Message-oriented middleware
+	- persistent asynchronous communication
+	- Prozesse versenden Nachrichten aneinandner, die in einer Wartschlange aneinander gereiht werden
+	- Sender muss nicht auf eine sofortige Antwort warten und kann andere Dinge bearbeiten
+	- Middleware stehlt Fehlertoleranz sicher
+
+#### RPC
+- Basic RPC operation:
+![[Pasted image 20240419110522.png]]
+- Was muss bei der Übertragung von Parametern bei RPC beachtet werden?
+	- Byte-Interpretation 
+	- Unterschiedliche Daten Repräsentation (Little Endian / Big Endian)
+	- Umwandlung von Parametern zu Bytesequenzen
+	- Codierung
+		- Representation von Basis-Datentypen (interger, float, character)
+		- Representation von erweiterten Datentypen (Arrays, Unions)
