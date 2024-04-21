@@ -75,3 +75,28 @@
 	- multidimensionale Objekte mit hierarchischen Merkmalen
 	- Analyse von Zusammenhängen auf aggregierte Merkmalen entlang Dimensionshierarchien
 	- Data Cube-Ansatz: Slicing, Dicing, Drill-down/up, Pivoting, etc.
+
+# Daten und Datenaufbereitung I 
+Datensatz
+> Menge oder Folge von Objekten (Beispiele, Instanzen) mit ihren Merkmalen und Beziehungen
+
+Merkmal
+> Attribut (Eigenschaft, Variable) eines Objekts als Element eines Wertebereichs (Skala)
+
+Beziehung
+> Relation zwischen oder Ähnlichkeit von Objekten
+
+## Skalentypen
+| Typ                          | Art                  | Mittelwerte           | Operationen, Eigenschaften                                                                                  | Beispiele                                                                                                                                               |
+| ---------------------------- | -------------------- | --------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nominalskala<br>(nominal)    | diskret / kategorial | Modus                 | Gleichheit, Ungleichheit,<br>alle Werte gleichberechtigt                                                    | Booleans, Zeichensätze (A,G,T,C),<br>Farben (rot, grün)<br>Gruppen, Prädikate                                                                           |
+| Ordinalskala<br>(ordinal)    | diskret / kategorial | Median                | Gleichheit, Ungleichheit, Vergleichbarkeit,<br>Rangordnung möglich                                          | Notenskala (sehr gut, gut, befriedigend),<br>unscharfe Prädikate (kalt, kühl, lau, warm, heiß),<br>eingefrorene Quantitäten (2-türig, 4-türig, 5-türig) |
+| (Ordnungsrelation)           | diskret / kategorial |                       |                                                                                                             | -                                                                                                                                                       |
+| (Abstandsfunktion)           | diskret / kategorial |                       |                                                                                                             | -                                                                                                                                                       |
+| Intervallskala<br>(absolut)  | numerisch / kardinal | arithmetisches Mittel | Gleichheit, Ungleichheit, Vergleichbarkeit, Differenzbildung,<br>Unterschiede quantifizierbar               | Temperaturen (20°C, 451°F),<br>Zeitangaben<br>(1966, 469 v. Chr.)                                                                                       |
+| Verhältnisskala<br>(relativ) | numerisch / kardinal | geometrisches Mittel  | Gleichheit, Ungleichheit, Vergleichbarkeit, Differenzbildung, Quotientenbildung,<br>Nullpunkt wohldefiniert | absolute Temperaturen (bspw. 273K),<br>Zeitdauer (10 Jahre, 45min)<br>Prozentangaben<br>Mengenangaben                                                   |
+| proportional                 | numerisch / kardinal |                       |                                                                                                             |                                                                                                                                                         |
+## CRISP-DM Vorgehensmodell
+![[Pasted image 20240421105759.png]]
+
+## Weiter bei Satz 7

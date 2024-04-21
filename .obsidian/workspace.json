@@ -8,37 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0164d914617dda06",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "media/pi/modules/Verteilte Systeme/Object_Servers.png"
-              }
-            }
-          },
-          {
-            "id": "6a54dd04a2c48359",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "media/pi/modules/Verteilte Systeme/Akamai_CDN.png"
-              }
-            }
-          },
-          {
             "id": "912cc7bf918a8bd8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "media/pi/modules/Verteilte Systeme/Akamai_CDN.png"
+                "file": "studies/Maschinelles Lernen/Maschinelles Lernen.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "media/pi/modules/Verteilte Systeme/Akamai_CDN.png",
+                "file": "studies/Maschinelles Lernen/Maschinelles Lernen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "media/pi/modules/Verteilte Systeme/Akamai_CDN.png",
+                "file": "studies/Maschinelles Lernen/Maschinelles Lernen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "media/pi/modules/Verteilte Systeme/Akamai_CDN.png"
+                "file": "studies/Maschinelles Lernen/Maschinelles Lernen.md"
               }
             }
           },
@@ -169,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,9 +165,12 @@
   },
   "active": "912cc7bf918a8bd8",
   "lastOpenFiles": [
-    "media/pi/modules/Verteilte Systeme/Object_Servers.png",
-    "media/pi/modules/Verteilte Systeme/Akamai_CDN.png",
+    "Pasted image 20240421105759.png",
     "studies/Verteilte Systeme/Klausurvorbereitung.md",
+    "studies/IT-Management/IT-Sicherheit.md",
+    "media/pi/modules/Verteilte Systeme/Akamai_CDN.png",
+    "media/pi/modules/Verteilte Systeme/Object_Servers.png",
+    "studies/IT-Management",
     "media/pi/modules/Verteilte Systeme/Pasted image 20240419110522.png",
     "media/pi/modules/Verteilte Systeme/Pasted image 20240419103555.png",
     "media/pi/modules/Verteilte Systeme/Pasted image 20240419094533.png",
@@ -215,7 +198,6 @@
     "studies/Netzwerkadministration",
     "studies/Untitled.md",
     "media/pi/modules/Netzwerkadministration",
-    "media/pi/modules/GDV/pasted",
     "studies/IT-Trends/topics/Prüfungsvorbereitung.md",
     "studies/Systementwicklung/Systementwicklung.md",
     "studies/Systementwicklung/topics/Klausurvorbereitung.md",
@@ -228,7 +210,6 @@
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Einflussfaktoren.md",
     "studies/Systementwicklung/topics/Einführung.md",
     "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der logischen Sicht.md",
-    "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der Ablauf-Sicht.md",
-    "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der physikalischen Sicht.md"
+    "studies/Systementwicklung/topics/Entwicklungskonzepte/Architekturmuster der Ablauf-Sicht.md"
   ]
 }
