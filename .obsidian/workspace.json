@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "studies/Maschinelles Lernen/Maschinelles Lernen.md",
+                "file": "studies/Verteilte Systeme/Klausurvorbereitung.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d46043588c1b44e9",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "studies/Maschinelles Lernen/Maschinelles Lernen.md",
+                "file": "studies/Verteilte Systeme/Klausurvorbereitung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "studies/Maschinelles Lernen/Maschinelles Lernen.md",
+                "file": "studies/Verteilte Systeme/Klausurvorbereitung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "studies/Maschinelles Lernen/Maschinelles Lernen.md"
+                "file": "studies/Verteilte Systeme/Klausurvorbereitung.md"
               }
             }
           },
@@ -150,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,8 +167,11 @@
   },
   "active": "912cc7bf918a8bd8",
   "lastOpenFiles": [
-    "Pasted image 20240421105759.png",
+    "Pasted image 20240422170714.png",
+    "studies/Maschinelles Lernen/Maschinelles Lernen.md",
+    "studies/Netzwerkadministration/Netzwerkadministration.md",
     "studies/Verteilte Systeme/Klausurvorbereitung.md",
+    "Pasted image 20240421105759.png",
     "studies/IT-Management/IT-Sicherheit.md",
     "media/pi/modules/Verteilte Systeme/Akamai_CDN.png",
     "media/pi/modules/Verteilte Systeme/Object_Servers.png",
@@ -178,15 +183,12 @@
     "media/pi/modules/Verteilte Systeme/Pasted image 20240416124634.png",
     "media/pi/modules/Verteilte Systeme/Pasted image 20240416122139.png",
     "media/pi/modules/Verteilte Systeme/Pasted image 20240416122008.png",
-    "media/pi/modules/Verteilte Systeme/Pasted image 20240416121650.png",
     "media/pi/modules/Verteilte Systeme",
     "studies/Computer Forensik/Klausurvorbereitung.md",
     "studies/Verteilte Systeme",
-    "studies/Maschinelles Lernen/Maschinelles Lernen.md",
     "media/pi/modules/Computer Forensik",
     "studies/Maschinelles Lernen",
     "index.md",
-    "studies/Netzwerkadministration/Netzwerkadministration.md",
     "studies/Computer Forensik",
     "studies/ABWL/topics/Klausurvorbereitung.md",
     "studies/ABWL/ABWL.md",

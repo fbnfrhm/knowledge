@@ -13,6 +13,7 @@
 - z.B. 
 	- GPS --> mindestens 3 Satelliten notwendig 
 	- Machine Learning (ChatGPT)
+	- Tsunami-Warn-Bojen 
 ### Distributed
 > A distributed system is a networked computer system in which processes 
 > and resources are **sufficiently** spread across multiple computers.
@@ -36,6 +37,12 @@
 			- Peer-to-peer assisted multimedia streaming (Spotify, Napster)
 			- Shared mail services (Outlook, Exchange)
 			- Shared Web Hosting (CDN)
+
+### Design Goals
+- Ressource sharing unterstützen
+- Distribution Transparency
+- Openness
+- Scalability
 
 #### Transparency
 > The phenomenon by which a distributed system attempts to hide the fact that
@@ -92,9 +99,12 @@
 	- temporäres Problem
 	- Funkitoniert beim nächsten Versuch
 	- Kommt nur einmal vor
+	- z.B. Netzwerkfehler 
 - Intermittent Fault = sich wiederholender Fehler
 	- temporär, tritt in Intervallen auf
+	- z.B. Wackelkontakt im Kabel
 - Permanent Fault = permanenter Fehler
+	- z.B. zerschnittenes Kabel
 #### On Security
 - Confidentiality, Integrity
 - Authentication, Authorization, Trust
@@ -104,6 +114,7 @@
 
 ### Scale in distributed systems
 #### Size scalability 
+- Unterstützung von mehr Nutzern
 - Probleme bei der Skalierung
 	- Rechenpower, (Speicher-)Kapazitäten, 
 	  (Netzwerk-/ interne) Verbindungen
@@ -227,7 +238,9 @@ Connector:
 
 ### Protokoll, Services und Interfaces
 ![[Pasted image 20240416112028.png]]
-- Interface = Regelwerk für die Kommunikation zwischen den Layers
+- Interface = Schnittstelle für das Layer darüber
+- Service = Funktion eines Layers
+- Protokoll = Kommunikation zwischen 2 Systemen auf dem gleichen Layer
 
 ## Two-party communication
 ```python
@@ -268,7 +281,7 @@ s = socket(AF_INET, SOCK_STREAM)
 	- gekoppelt: direkte Nachricht
 	- entkoppelt: zur Verfügung stellen einer Information (für alle)
 - topic-based subscription = bspw. `device.temperature`
-- content-based subscription = Inhalt der Nachricht, bspw. alle Nachrichten mit `°C` als Inhalt --> ernsthafte Skalierungsprobleme
+- content-based subscription = Inhalt der Nachricht, bspw. alle Nachrichten mit `°C` als Inhalt --> ernsthafte Skalierungsprobleme, weil Blick in die Nachrichten notwendig ist
 
 ## Middleware
 ![[Pasted image 20240416120242.png]]
@@ -278,6 +291,7 @@ s = socket(AF_INET, SOCK_STREAM)
 - Wrapper = Schnittstelle zu einer Applikation
 - Broker = Vereinigung von Schnittstellen an einen zentralen Punkt
 	- Ziel: Reduzierung / Vereinheitlichung von Wrappern
+![[Pasted image 20240422170714.png]]
 
 ## Interceptor
 - Unterbrechung des eigtl. Aufrufes durch den Aufruf einer weiteren Funktion (`Interceptor`) zur Vorbereitung, Authentifizierung, Logging oder sonstiges Funktionen
@@ -296,6 +310,7 @@ s = socket(AF_INET, SOCK_STREAM)
 ![[Pasted image 20240416122139.png]]
 - AS = Applicaiton Server
 - DS = Database Server
+- CGI = Common Gateway Interface
 
 ## Alternative Organisationen
 - Vertikale Verteilung 
@@ -319,7 +334,8 @@ s = socket(AF_INET, SOCK_STREAM)
 	- exploit paralellism
 	- avoid process switching
 ### Context
-- Process context: The minimal collection of values stored in registers and memory, used for the execution of a thread (i.e., thread context, but now also at least MMIJ register values).
+- Process context: The minimal collection of values stored in registers and memory, used for the execution of a thread (i.e., thread context, but now also at least MMU register values).
+	- MMU = Memory Management Unit
 - Processor context: The minimal collection of values stored in the registers of a processor used for the execution of a series of instructions (e.g., stack pointer, addressing registers, program counter).
 - Thread context: The minimal collection of values stored in registers and memory, used for the execution of a series of instructions (i.e., processor context, State).
 
